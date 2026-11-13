@@ -1,0 +1,42 @@
+{
+  "phase": 35,
+  "title": "Final Testing and Corrections",
+  "status": "STATIC_REGRESSION_PASSED_BROWSER_ACCEPTANCE_BLOCKED",
+  "static_regression": {
+    "passed": 134,
+    "failed": 0,
+    "suites": {
+      "phase21_static_acceptance": {"passed": 51, "failed": 0},
+      "phase24_remediation": {"passed": 16, "failed": 0},
+      "phase25_details_navigation": {"passed": 12, "failed": 0},
+      "phase26_compare_mapping": {"passed": 10, "failed": 0},
+      "phase29_navigation_reconciliation": {"passed": 6, "failed": 0},
+      "phase32_suite_reconciliation": {"passed": 39, "failed": 0}
+    }
+  },
+  "browser_acceptance": {
+    "passed": 0,
+    "failed": 0,
+    "blocked": 3,
+    "total": 3,
+    "viewports": {
+      "desktop": "BLOCKED",
+      "tablet": "BLOCKED",
+      "mobile": "BLOCKED"
+    },
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "application_loaded": false
+  },
+  "corrections": [],
+  "corrections_rationale": "No application-level failure could be observed because the browser could not load the local site. No speculative changes were made.",
+  "integrity": {
+    "base_zip_sha256": "26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+    "matches_recorded_baseline": true,
+    "original_base_zip_modified": false,
+    "nasa_research_data_changed": false,
+    "publication_states_changed": false,
+    "final_zip_packaged": false
+  },
+  "release_ready": false,
+  "next_step": "Scientific, Accessibility and Release Audit; browser acceptance remains a separate mandatory release gate."
+}

@@ -1,0 +1,36 @@
+{
+  "report_id": "RETRACE-PHASE12-VALIDATION-001",
+  "generated_utc": "2026-11-13",
+  "environment": "TEST",
+  "source_archives": {
+    "moon": "RETRACE_MOON_Consolidated_10_Record_Collection_v1.0 (1).zip",
+    "mars": "RETRACE_Stage5B_Batch8_Mars_Corrected_v1.2.zip"
+  },
+  "counts": {
+    "records": 15,
+    "claims": 131,
+    "sources": 69,
+    "events": 72
+  },
+  "checks": {
+    "json_parse": "PASS",
+    "equipment_id_uniqueness": "PASS",
+    "id_alias_consistency": "PASS",
+    "required_details_sections": "PASS",
+    "claim_source_reference_resolution": "PASS",
+    "timeline_claim_reference_resolution": "PASS",
+    "timeline_source_reference_resolution": "PASS"
+  },
+  "issues": [],
+  "limitations": [
+    "This is structural validation, not NASA factual certification.",
+    "Mission event duplication and event ownership are not resolved.",
+    "Mars mission registry remains partial; InSight mission IDs remain unresolved.",
+    "Compare attribute mapping is not generated.",
+    "Equipment-specific launch/deployment dates are not inferred.",
+    "Original source records are copied as JSON values and not edited."
+  ],
+  "base_zip_b_sha256": "26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+  "working_copy_created_from_base_zip_b": true,
+  "original_base_zip_modified": false
+}

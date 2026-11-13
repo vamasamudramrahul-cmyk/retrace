@@ -1,0 +1,36 @@
+{
+  "phase": 33,
+  "title": "Browser Environment and Acceptance",
+  "status": "BLOCKED_NOT_VERIFIED",
+  "browser": {
+    "chromium_executable_present": true,
+    "chromium_launch": "PASSED",
+    "local_server_start": "PASSED",
+    "navigation_error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "attempts": {
+      "desktop": "BLOCKED",
+      "tablet": "BLOCKED",
+      "mobile": "BLOCKED"
+    },
+    "tests_executed": 0,
+    "tests_passed": 0,
+    "tests_failed": 0,
+    "tests_blocked": 3
+  },
+  "regression_suites": {
+    "phase32": {"passed": 39, "failed": 0},
+    "phase21": {"passed": 51, "failed": 0},
+    "phase24": {"passed": 16, "failed": 0},
+    "phase25": {"passed": 12, "failed": 0},
+    "phase26": {"passed": 10, "failed": 0},
+    "phase29": {"passed": 6, "failed": 0}
+  },
+  "original_base_zip": {
+    "path": "/mnt/data/base.zip",
+    "sha256": "26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+    "matches_recorded_baseline": true,
+    "modified": false
+  },
+  "release_ready": false,
+  "next_action": "Run unchanged Playwright suite in an approved environment that permits local browser navigation."
+}

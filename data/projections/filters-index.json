@@ -1,0 +1,292 @@
+{
+  "projection_id": "RETRACE-TEST-FILTERS",
+  "version": "0.1.0",
+  "count": 15,
+  "records": [
+    {
+      "equipment_id": "MOON-EQ-0001",
+      "destination": "Moon",
+      "equipment_status": "ABANDONED",
+      "category": "Surface television camera",
+      "mission": "Apollo 11",
+      "equipment_name": "Apollo 11 Lunar Surface Television Camera",
+      "search_fields": {
+        "equipment_name": "Apollo 11 Lunar Surface Television Camera",
+        "mission_name": "Apollo 11",
+        "category": "Surface television camera",
+        "operational_status": "ABANDONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0002",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "Hardware",
+      "mission": "Apollo 12",
+      "equipment_name": "ALSEP Central Station",
+      "search_fields": {
+        "equipment_name": "ALSEP Central Station",
+        "mission_name": "Apollo 12",
+        "category": "Hardware",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0003",
+      "destination": "Moon",
+      "equipment_status": "INACTIVE",
+      "category": "Hardware",
+      "mission": "Apollo 12",
+      "equipment_name": "SNAP-27 Radioisotope Thermoelectric Generator",
+      "search_fields": {
+        "equipment_name": "SNAP-27 Radioisotope Thermoelectric Generator",
+        "mission_name": "Apollo 12",
+        "category": "Hardware",
+        "operational_status": "INACTIVE",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "Instrument",
+      "mission": "Apollo 12",
+      "equipment_name": "Lunar Surface Magnetometer",
+      "search_fields": {
+        "equipment_name": "Lunar Surface Magnetometer",
+        "mission_name": "Apollo 12",
+        "category": "Instrument",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0005",
+      "destination": "Moon",
+      "equipment_status": "INACTIVE",
+      "category": "Instrument",
+      "mission": "Apollo 14",
+      "equipment_name": "Active Seismic Experiment",
+      "search_fields": {
+        "equipment_name": "Active Seismic Experiment",
+        "mission_name": "Apollo 14",
+        "category": "Instrument",
+        "operational_status": "INACTIVE",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0006",
+      "destination": "Moon",
+      "equipment_status": "INACTIVE",
+      "category": "Instrument",
+      "mission": "Apollo 14",
+      "equipment_name": "Charged Particle Lunar Environment Experiment",
+      "search_fields": {
+        "equipment_name": "Charged Particle Lunar Environment Experiment",
+        "mission_name": "Apollo 14",
+        "category": "Instrument",
+        "operational_status": "INACTIVE",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0007",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "Instrument",
+      "mission": "Apollo 15",
+      "equipment_name": "Heat Flow Experiment",
+      "search_fields": {
+        "equipment_name": "Heat Flow Experiment",
+        "mission_name": "Apollo 15",
+        "category": "Instrument",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "Instrument",
+      "mission": "Apollo 15",
+      "equipment_name": "Lunar Surface Magnetometer",
+      "search_fields": {
+        "equipment_name": "Lunar Surface Magnetometer",
+        "mission_name": "Apollo 15",
+        "category": "Instrument",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "ALSEP scientific instrument",
+      "mission": "Apollo 15",
+      "equipment_name": "Apollo 15 Solar Wind Spectrometer",
+      "search_fields": {
+        "equipment_name": "Apollo 15 Solar Wind Spectrometer",
+        "mission_name": "Apollo 15",
+        "category": "ALSEP scientific instrument",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "equipment_status": "DECOMMISSIONED",
+      "category": "Instrument",
+      "mission": "Apollo 16",
+      "equipment_name": "Active Seismic Experiment",
+      "search_fields": {
+        "equipment_name": "Active Seismic Experiment",
+        "mission_name": "Apollo 16",
+        "category": "Instrument",
+        "operational_status": "DECOMMISSIONED",
+        "destination": "Moon"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MARS-EQ-0036",
+      "destination": "Mars",
+      "equipment_status": "OPERATIONAL",
+      "category": "instrument",
+      "mission": "Mars 2020",
+      "equipment_name": "Perseverance SuperCam",
+      "search_fields": {
+        "equipment_name": "Perseverance SuperCam",
+        "mission_name": "Mars 2020",
+        "category": "instrument",
+        "operational_status": "OPERATIONAL",
+        "destination": "Mars"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MARS-EQ-0037",
+      "destination": "Mars",
+      "equipment_status": "OPERATIONAL",
+      "category": "instrument",
+      "mission": "Mars 2020",
+      "equipment_name": "Perseverance Mars Environmental Dynamics Analyzer (MEDA)",
+      "search_fields": {
+        "equipment_name": "Perseverance Mars Environmental Dynamics Analyzer (MEDA)",
+        "mission_name": "Mars 2020",
+        "category": "instrument",
+        "operational_status": "OPERATIONAL",
+        "destination": "Mars"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MARS-EQ-0038",
+      "destination": "Mars",
+      "equipment_status": "OPERATIONAL",
+      "category": "instrument",
+      "mission": "Mars 2020",
+      "equipment_name": "Perseverance Radar Imager for Mars' Subsurface Experiment (RIMFAX)",
+      "search_fields": {
+        "equipment_name": "Perseverance Radar Imager for Mars' Subsurface Experiment (RIMFAX)",
+        "mission_name": "Mars 2020",
+        "category": "instrument",
+        "operational_status": "OPERATIONAL",
+        "destination": "Mars"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "equipment_status": null,
+      "category": "instrument",
+      "mission": "InSight",
+      "equipment_name": "InSight Seismic Experiment for Interior Structure (SEIS)",
+      "search_fields": {
+        "equipment_name": "InSight Seismic Experiment for Interior Structure (SEIS)",
+        "mission_name": "InSight",
+        "category": "instrument",
+        "operational_status": null,
+        "destination": "Mars"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    },
+    {
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "equipment_status": null,
+      "category": "instrument",
+      "mission": "InSight",
+      "equipment_name": "InSight Heat Flow and Physical Properties Package (HP³)",
+      "search_fields": {
+        "equipment_name": "InSight Heat Flow and Physical Properties Package (HP³)",
+        "mission_name": "InSight",
+        "category": "instrument",
+        "operational_status": null,
+        "destination": "Mars"
+      },
+      "launch_date": null,
+      "deployment_date": null,
+      "date_mapping_status": "NOT_ESTABLISHED",
+      "date_mapping_note": "No equipment-specific launch/deployment date inferred from mission-level timeline events."
+    }
+  ]
+}

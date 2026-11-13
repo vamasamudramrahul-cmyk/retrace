@@ -1,0 +1,364 @@
+{
+  "phase": 36,
+  "title": "Consolidated Phase 2 — Scientific, Accessibility & Release Audit",
+  "date": "2026-11-13",
+  "working_copy": "/mnt/data/retrace_phase12/base_work/abnf-home-prototype",
+  "audit_status": "NOT_RELEASE_READY",
+  "summary": {
+    "checks_total": 32,
+    "passed": 24,
+    "flags": 8,
+    "failed": 0,
+    "static_regression_passed": 134,
+    "static_regression_failed": 0
+  },
+  "dataset_counts": {
+    "equipment": 15,
+    "missions": 7,
+    "claims": 131,
+    "sources": 69,
+    "timeline_events": 72,
+    "quiz_direct_candidates": 114
+  },
+  "equipment_status_counts": {
+    "ABANDONED": 1,
+    "DECOMMISSIONED": 6,
+    "INACTIVE": 3,
+    "OPERATIONAL": 3,
+    "null": 2
+  },
+  "verification_status_counts": {
+    "VERIFIED": 2,
+    "PARTIALLY_VERIFIED": 13
+  },
+  "publication_state_counts": {
+    "Draft": 15
+  },
+  "claim_evidence_classification_counts": {
+    "DIRECT": 114,
+    "CORROBORATED": 10,
+    "LIMITED": 6,
+    "UNVERIFIED": 1
+  },
+  "mission_registry": [
+    {
+      "mission_id": "MIS-0001",
+      "mission_name": "Apollo 11",
+      "destination": "Moon",
+      "registry_status": null
+    },
+    {
+      "mission_id": "MIS-0002",
+      "mission_name": "Apollo 12",
+      "destination": "Moon",
+      "registry_status": null
+    },
+    {
+      "mission_id": "MIS-0003",
+      "mission_name": "Apollo 14",
+      "destination": "Moon",
+      "registry_status": null
+    },
+    {
+      "mission_id": "MIS-0004",
+      "mission_name": "Apollo 15",
+      "destination": "Moon",
+      "registry_status": null
+    },
+    {
+      "mission_id": "MIS-0005",
+      "mission_name": "Apollo 16",
+      "destination": "Moon",
+      "registry_status": null
+    },
+    {
+      "mission_id": "MIS-0020",
+      "mission_name": "Mars 2020",
+      "destination": "Mars",
+      "registry_status": "PARTIAL_UNVERIFIED_SOURCE_REGISTRY_MISSING"
+    },
+    {
+      "mission_id": "MIS-0021",
+      "mission_name": "InSight",
+      "destination": "Mars",
+      "registry_status": "VERIFIED_RELATIONSHIPS_FOR_REPRESENTED_EQUIPMENT"
+    }
+  ],
+  "restricted_source_records_missing_urls": [
+    {
+      "equipment_id": "MOON-EQ-0010",
+      "source_id": "SRC-0025",
+      "title": "Apollo 16 Preliminary Science Report",
+      "note": "Source identity retained for evidence traceability. Detailed report numbers, catalogue identifiers, authorship metadata, direct locators and locating details are RESTRICTED in this project package. The approved scientific use remains limited to geophone receiving-system and scientific-result material."
+    },
+    {
+      "equipment_id": "MOON-EQ-0010",
+      "source_id": "SRC-0029",
+      "title": "Apollo Scientific Experiments Data Handbook",
+      "note": "Source identity retained for evidence traceability. Detailed report numbers, catalogue identifiers, authorship metadata, direct locators and locating details are RESTRICTED in this project package. The original sampling-frequency passage remains unchecked; ATT-0054 is null and CLM-0093 remains UNVERIFIED."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Equipment IDs unique",
+      "status": "PASS",
+      "detail": "15 records",
+      "severity": "INFO"
+    },
+    {
+      "check": "Mission IDs unique",
+      "status": "PASS",
+      "detail": "7 missions",
+      "severity": "INFO"
+    },
+    {
+      "check": "Equipment status taxonomy",
+      "status": "PASS",
+      "detail": {
+        "ABANDONED": 1,
+        "DECOMMISSIONED": 6,
+        "INACTIVE": 3,
+        "OPERATIONAL": 3,
+        "null": 2
+      },
+      "severity": "INFO"
+    },
+    {
+      "check": "Verification-state taxonomy",
+      "status": "PASS",
+      "detail": {
+        "VERIFIED": 2,
+        "PARTIALLY_VERIFIED": 13
+      },
+      "severity": "INFO"
+    },
+    {
+      "check": "Publication-state taxonomy",
+      "status": "PASS",
+      "detail": {
+        "Draft": 15
+      },
+      "severity": "INFO"
+    },
+    {
+      "check": "Claim source references",
+      "status": "PASS",
+      "detail": "131 claims; equipment-scoped source references",
+      "severity": "INFO"
+    },
+    {
+      "check": "Equipment primary source references",
+      "status": "PASS",
+      "detail": "All equipment primary sources resolve in their equipment scope",
+      "severity": "INFO"
+    },
+    {
+      "check": "Equipment/mission references",
+      "status": "PASS",
+      "detail": "Both directions resolve",
+      "severity": "INFO"
+    },
+    {
+      "check": "Equipment/mission membership consistency",
+      "status": "PASS",
+      "detail": "Both directions agree",
+      "severity": "INFO"
+    },
+    {
+      "check": "Timeline event IDs unique",
+      "status": "PASS",
+      "detail": "72 events",
+      "severity": "INFO"
+    },
+    {
+      "check": "Timeline claim references",
+      "status": "PASS",
+      "detail": "Equipment-scoped",
+      "severity": "INFO"
+    },
+    {
+      "check": "Timeline source references",
+      "status": "PASS",
+      "detail": "Equipment-scoped",
+      "severity": "INFO"
+    },
+    {
+      "check": "Source URL completeness",
+      "status": "FLAG",
+      "detail": "67/69 have URLs; 2 restricted bibliographic records intentionally lack direct URLs",
+      "severity": "MEDIUM"
+    },
+    {
+      "check": "Linked source URL protocol",
+      "status": "PASS",
+      "detail": "67 linked URLs use HTTPS",
+      "severity": "INFO"
+    },
+    {
+      "check": "Linked source domains",
+      "status": "PASS",
+      "detail": "All linked URLs use NASA-owned nasa.gov domains",
+      "severity": "INFO"
+    },
+    {
+      "check": "Compare projection coverage",
+      "status": "PASS",
+      "detail": "15/15 equipment projections",
+      "severity": "INFO"
+    },
+    {
+      "check": "Compare attribute citation completeness",
+      "status": "FLAG",
+      "detail": "Attribute values currently lack consistent claim/source IDs at the individual attribute level; mapping registry exists but evidence citations remain outstanding",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Quiz evidence candidate traceability",
+      "status": "PASS",
+      "detail": "114 candidate claims; this is not an approved question bank",
+      "severity": "INFO"
+    },
+    {
+      "check": "Quiz approved question bank",
+      "status": "FLAG",
+      "detail": "No approved evidence-linked question bank; keep Quiz unavailable",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Canonical equipment image alternative text",
+      "status": "PASS",
+      "detail": "Missing alt text: []",
+      "severity": "INFO"
+    },
+    {
+      "check": "Keyboard focus styling",
+      "status": "PASS",
+      "detail": "Focus styles are present in CSS; actual keyboard interaction still needs browser validation",
+      "severity": "INFO"
+    },
+    {
+      "check": "Reduced-motion support",
+      "status": "PASS",
+      "detail": "Reduced-motion media query present",
+      "severity": "INFO"
+    },
+    {
+      "check": "Responsive CSS breakpoints",
+      "status": "PASS",
+      "detail": "Responsive media queries present; actual layout not browser-verified",
+      "severity": "INFO"
+    },
+    {
+      "check": "Focus-indicator contrast",
+      "status": "FLAG",
+      "detail": "Primary sky focus outline #38BDF8 against white is approximately 2.14:1, below the 3:1 non-text contrast target",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Mobile navigation disclosure semantics",
+      "status": "PASS",
+      "detail": "aria-expanded and aria-controls present",
+      "severity": "INFO"
+    },
+    {
+      "check": "Mobile navigation focus management",
+      "status": "PASS",
+      "detail": "Focus trap, Escape close and focus restoration are implemented in code; browser validation pending",
+      "severity": "INFO"
+    },
+    {
+      "check": "Contact recipient configuration",
+      "status": "FLAG",
+      "detail": "Contact/feedback/report forms currently open an email draft with no configured recipient",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Equipment verification readiness",
+      "status": "FLAG",
+      "detail": "2 VERIFIED; 13 PARTIALLY_VERIFIED; full factual release audit outstanding",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Publication readiness",
+      "status": "FLAG",
+      "detail": "15 of 15 equipment records remain Draft; none are Published",
+      "severity": "HIGH"
+    },
+    {
+      "check": "Mars 2020 mission registry",
+      "status": "FLAG",
+      "detail": "MIS-0020 remains PARTIAL_UNVERIFIED_SOURCE_REGISTRY_MISSING",
+      "severity": "HIGH"
+    },
+    {
+      "check": "InSight mission relationship",
+      "status": "PASS",
+      "detail": "MIS-0021 links the represented SEIS and HP3 records; does not assert equipment operational status",
+      "severity": "INFO"
+    },
+    {
+      "check": "Original Base ZIP integrity",
+      "status": "PASS",
+      "detail": "SHA-256 26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+      "severity": "INFO"
+    }
+  ],
+  "static_suites": [
+    {
+      "name": "Phase 21",
+      "passed": 51,
+      "failed": 0
+    },
+    {
+      "name": "Phase 24",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "Phase 25",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "name": "Phase 26",
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "name": "Phase 29",
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "name": "Phase 32",
+      "passed": 39,
+      "failed": 0
+    }
+  ],
+  "browser_acceptance": {
+    "status": "NOT_VERIFIED",
+    "reason": "Prior browser attempts blocked before application load with net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "desktop": "BLOCKED",
+    "tablet": "BLOCKED",
+    "mobile": "BLOCKED"
+  },
+  "release_blockers": [
+    "Browser acceptance in an authorized runner",
+    "Resolve or formally document restricted NASA bibliographic records and missing direct URLs",
+    "Complete attribute-level Compare citations and approve comparison rules",
+    "Develop and approve evidence-linked Quiz questions",
+    "Resolve Mars 2020 mission registry evidence",
+    "Improve focus-indicator contrast to at least 3:1 on relevant surfaces",
+    "Configure approved contact recipient or formally disable the forms",
+    "Complete final NASA factual/status review and publication approval"
+  ],
+  "integrity": {
+    "original_base_zip_sha256": "26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+    "matches_recorded_baseline": true,
+    "original_base_zip_modified": false,
+    "application_code_changed_in_this_phase": false,
+    "canonical_data_changed_in_this_phase": false,
+    "publication_states_changed": false,
+    "final_zip_packaged": false
+  }
+}

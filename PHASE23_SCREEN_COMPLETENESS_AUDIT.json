@@ -1,0 +1,25 @@
+{
+  "report_id": "RETRACE-PHASE23-SCREEN-COMPLETENESS-001",
+  "date": "2026-11-13",
+  "working_environment": "TEST",
+  "overall_status": "INCOMPLETE_TEST_INTEGRATION",
+  "static_acceptance": {"passed": 51, "total": 51},
+  "browser_acceptance": {"executed": 0, "blocked_viewports": 3, "status": "NOT_VERIFIED", "reason": "ERR_BLOCKED_BY_ADMINISTRATOR before local page navigation"},
+  "critical_findings": [
+    "Universal search indexes legacy featured equipment rather than canonical Moon/Mars records.",
+    "Sources & Evidence renderer field names do not match canonical source and claim schemas.",
+    "Equipment Library cards omit the required destination badge/label.",
+    "Timeline cards omit destination label, explicit equipment CTA, verified source links and filtered-empty message; return-state restoration is absent.",
+    "Full Details mobile section navigation is a horizontal link strip rather than the approved mobile drawer; return-state restoration is absent.",
+    "Compare projection has empty attribute mappings and lacks reason-aware missing-value states.",
+    "Quiz question bank and attempt/review/retry flow are unavailable.",
+    "Mars/InSight mission registry relationships remain unresolved.",
+    "Planets Home/footer links conflict with the Moon/Mars-only active destination architecture and require a deliberate decision."
+  ],
+  "integrity": {
+    "original_base_zip_b_modified": false,
+    "original_research_records_modified": false,
+    "verification_or_publication_states_changed": false
+  },
+  "release_recommendation": "CONTINUE_TEST_DEVELOPMENT; DO_NOT_DECLARE_COMPLETE"
+}

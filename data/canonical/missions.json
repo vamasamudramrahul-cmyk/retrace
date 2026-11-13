@@ -1,0 +1,100 @@
+{
+  "registry_id": "RETRACE-TEST-MISSION-REGISTRY",
+  "version": "0.2.0",
+  "environment": "TEST",
+  "missions": [
+    {
+      "mission_id": "MIS-0001",
+      "mission_name": "Apollo 11",
+      "destination": "Moon",
+      "equipment_ids": [
+        "MOON-EQ-0001"
+      ]
+    },
+    {
+      "mission_id": "MIS-0002",
+      "mission_name": "Apollo 12",
+      "destination": "Moon",
+      "equipment_ids": [
+        "MOON-EQ-0002",
+        "MOON-EQ-0003",
+        "MOON-EQ-0004"
+      ]
+    },
+    {
+      "mission_id": "MIS-0003",
+      "mission_name": "Apollo 14",
+      "destination": "Moon",
+      "equipment_ids": [
+        "MOON-EQ-0005",
+        "MOON-EQ-0006"
+      ]
+    },
+    {
+      "mission_id": "MIS-0004",
+      "mission_name": "Apollo 15",
+      "destination": "Moon",
+      "equipment_ids": [
+        "MOON-EQ-0007",
+        "MOON-EQ-0008",
+        "MOON-EQ-0009"
+      ]
+    },
+    {
+      "mission_id": "MIS-0005",
+      "mission_name": "Apollo 16",
+      "destination": "Moon",
+      "equipment_ids": [
+        "MOON-EQ-0010"
+      ]
+    },
+    {
+      "mission_id": "MIS-0020",
+      "mission_name": "Mars 2020",
+      "destination": "Mars",
+      "equipment_ids": [
+        "MARS-EQ-0036",
+        "MARS-EQ-0037",
+        "MARS-EQ-0038"
+      ],
+      "registry_status": "PARTIAL_UNVERIFIED_SOURCE_REGISTRY_MISSING"
+    },
+    {
+      "mission_id": "MIS-0021",
+      "mission_name": "InSight",
+      "destination": "Mars",
+      "equipment_ids": [
+        "MARS-EQ-0039",
+        "MARS-EQ-0040"
+      ],
+      "registry_status": "VERIFIED_RELATIONSHIPS_FOR_REPRESENTED_EQUIPMENT",
+      "source_ids": [
+        "SRC-0158",
+        "SRC-0166"
+      ],
+      "relationship_evidence": [
+        {
+          "source_id": "SRC-0166",
+          "source_title": "InSight Mission",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/missions/insight/",
+          "supports": "Identifies InSight as a Mars lander mission and lists its seismometer and heat-flow probe instruments."
+        },
+        {
+          "source_id": "SRC-0158",
+          "source_title": "InSight Science Instruments",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/insight/science-instruments/",
+          "supports": "Identifies SEIS and HP3 as instruments of the InSight lander."
+        }
+      ]
+    }
+  ],
+  "unresolved_relationships": [],
+  "notes": [
+    "Moon mission entries copied from supplied Moon mission registry.",
+    "Mars mission ID MIS-0020 is retained only because it is already referenced by the supplied Mars records; registry completeness is not established.",
+    "No mission ID was invented for InSight records.",
+    "Phase 28: InSight mission MIS-0021 assigned to represented SEIS (MARS-EQ-0039) and HP3 (MARS-EQ-0040) records using NASA JPL InSight Mission and NASA Science InSight Science Instruments. This resolves these two relationships only; registry completeness and other mission families remain unverified."
+  ]
+}

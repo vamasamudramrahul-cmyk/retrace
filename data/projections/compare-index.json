@@ -1,0 +1,2648 @@
+{
+  "projection_id": "RETRACE-TEST-COMPARE",
+  "version": "1.0.0",
+  "count": 15,
+  "canonical_attribute_count": 30,
+  "mapping_registry": "compare-mapping-registry.json",
+  "records": [
+    {
+      "equipment_id": "MOON-EQ-0001",
+      "equipment_name": "Apollo 11 Lunar Surface Television Camera",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Surface television camera",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 11",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "ABANDONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Tranquility Base, near the Apollo 11 Lunar Module Eagle. The mission report places the tripod approximately 40 ft from the LM; the NSSDC image caption places the camera left of the LM. Exact camera coordinates are not established.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 3.29,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "24–32 V DC electrical supply; the reviewed press kit does not specify the detailed internal power-routing arrangement.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Initially attached to the MESA for deployment; later mounted on a tripod by the crew.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0001",
+              "title": "Live television record of the first lunar landing",
+              "explanation": "The camera transmitted live images of the first human steps on the Moon and subsequent surface activity.",
+              "significance": "It provided a real-time visual record of a defining event in human spaceflight.",
+              "claim_ids": [
+                "CLM-0001",
+                "CLM-0004"
+              ],
+              "source": "SRC-0001"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": "Camera body: approximately 0.269 m × 0.165 m × 0.086 m (converted from 10.6 × 6.5 × 3.4 in).",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0002",
+      "equipment_name": "ALSEP Central Station",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Hardware",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 12",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Apollo 12 ALSEP deployment site in Oceanus Procellarum, at approximately 3.00942° S, 23.42458° W. These are array-site coordinates; no separate central-station coordinate is given in the cited table.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 25,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "The Apollo 12 ALSEP used a SNAP-27 radioisotope thermoelectric generator; the central station distributed power to the experiment system.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Stationary lunar-surface installation; deployed and aligned by the Apollo 12 crew.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0002",
+              "title": "Long-duration lunar surface science infrastructure",
+              "explanation": "The central station enabled several separately deployed experiments to be controlled and their data relayed to Earth after the crew left the Moon.",
+              "significance": "It provided a reusable architecture for continuous, remotely managed lunar geophysical observations.",
+              "claim_ids": [
+                "CLM-0007",
+                "CLM-0008"
+              ],
+              "source": "SRC-0004"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0003",
+      "equipment_name": "SNAP-27 Radioisotope Thermoelectric Generator",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Hardware",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 12",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "INACTIVE",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Apollo 12 ALSEP deployment area in Oceanus Procellarum. The cited coordinate source identifies the array site; it does not provide a separately surveyed coordinate for the RTG unit.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 17,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "Plutonium-238 radioisotope heat source; this is the generator’s energy source, not an external electrical supply.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Stationary installation as part of the Apollo 12 ALSEP deployment.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0003",
+              "title": "First lunar use of a nuclear power system",
+              "explanation": "The Apollo 12 SNAP-27 supplied electrical power to the first ALSEP deployed on the Moon.",
+              "significance": "It demonstrated radioisotope power as a way to sustain unattended lunar surface science over long periods.",
+              "claim_ids": [
+                "CLM-0013",
+                "CLM-0015"
+              ],
+              "source": "SRC-0012"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0004",
+      "equipment_name": "Lunar Surface Magnetometer",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 12",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "NASA-SP-235 prints the magnetometer location as 2.970° S, 23.350° W. The displayed three decimal places preserve the source notation and do not establish absolute positional accuracy. These instrument-specific coordinates differ from the ALSEP array deployment-site coordinates.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 8.9,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "ALSEP central station power distribution, supplied by the SNAP-27 radioisotope thermoelectric generator.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Stationary surface instrument; deployed and oriented by the Apollo 12 crew.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0001",
+              "title": "First in-situ measurement of an intrinsic lunar magnetic field",
+              "explanation": "The Apollo 12 LSM measured a permanent local magnetic field of approximately 38 ± 3 nT at the site. NASA’s termination report identifies this as the first in-situ measurement of an intrinsic lunar magnetic field.",
+              "significance": "The observation established that the Moon has localized remanent magnetic fields even though it lacks a strong global dipole field.",
+              "claim_ids": [
+                "CLM-0021"
+              ],
+              "source": "SRC-0008"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0004",
+              "title": "Lunar electromagnetic sounding",
+              "explanation": "The LSM measurements, together with solar-wind observations and other magnetic measurements, were used to investigate electromagnetic excitation and estimate electrical conductivity within the Moon.",
+              "significance": "The data contributed to early geophysical models of the lunar interior and its interaction with the solar wind.",
+              "claim_ids": [
+                "CLM-0022"
+              ],
+              "source": "SRC-0005"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": "0.25 × 0.28 × 0.63 m (converted from 25 × 28 × 63 cm)",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0005",
+      "equipment_name": "Active Seismic Experiment",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 14",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "INACTIVE",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Apollo 14 ALSEP deployment area at Fra Mauro, approximately 180 m west of the Lunar Module Antares. Exact coordinates for the ASE instrument package itself are not established in the reviewed sources.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": "ALSEP central station electrical power, supplied by the station power system.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Stationary lunar-surface deployment. Seismic sensors were positioned in the ALSEP deployment area and connected to the central station; no exact geophone count is asserted in this record.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0002",
+              "title": "Evidence for an approximately 8.5 m regolith layer at Fra Mauro",
+              "explanation": "The initial ASE seismic interpretation indicated an approximately 8.5 m thick surficial layer with a P-wave velocity of 104 m/s. NASA interpreted this layer as regolith.",
+              "significance": "The measurements provided a direct seismic constraint on the thickness and physical properties of the upper lunar surface material at the Apollo 14 site.",
+              "claim_ids": [
+                "CLM-0027"
+              ],
+              "source": "SRC-0010"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0005",
+              "title": "Active seismic characterization of the lunar near-surface",
+              "explanation": "The ASE supplied seismic-refraction measurements at Fra Mauro, complementing the Apollo passive seismic network and supporting interpretation of subsurface layers.",
+              "significance": "It expanded Apollo lunar geophysics from passive event detection to controlled near-surface seismic investigation.",
+              "claim_ids": [
+                "CLM-0028"
+              ],
+              "source": "SRC-0010"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0006",
+      "equipment_name": "Charged Particle Lunar Environment Experiment",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 14",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "INACTIVE",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Apollo 14 ALSEP deployment area at Fra Mauro; NASA SP-272 places CPLEE northeast of the ALSEP central station. No instrument-specific latitude/longitude is assigned here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": "ALSEP central-station electrical supply. NASA SP-272 reports approximately 3.0 W normal power dissipation and approximately 6.0 W with the lunar-night survival heater operating. NASA-RP-1036 separately lists 6.5 W total power. These are source-specific report values and are retained without selecting one as universally applicable.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0003",
+              "title": "Lunar surface photoelectron and electrical-potential observations",
+              "explanation": "CPLEE measurements showed that the sunlit lunar surface produced a photoelectron population. NASA RP-1036 reports that the surface reached a positive potential of about 200 V under low-density plasma conditions.",
+              "significance": "The observations helped characterize the electrical state of the lunar surface and the interaction between solar radiation, charged particles and lunar material.",
+              "claim_ids": [
+                "CLM-0043"
+              ],
+              "source": "SRC-0016"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0006",
+              "title": "In-situ lunar plasma measurements",
+              "explanation": "CPLEE provided direct measurements of low-energy charged particles at the Apollo 14 site, complementing measurements from other Apollo ALSEP stations.",
+              "significance": "Added a second location to the Apollo lunar charged-particle investigation network.",
+              "claim_ids": [
+                "CLM-0068"
+              ],
+              "source": "SRC-0015"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [
+            "Two physical charged-particle analyzers for electron and ion measurements"
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0007",
+      "equipment_name": "Heat Flow Experiment",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 15",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Hadley Rille Apollo 15 ALSEP site. NASA sources document two probe locations separated by approximately 8.5 m; exact latitude and longitude for each probe are not included in the sources used here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 9.9,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "ALSEP central-station electrical supply; NASA-RP-1036 lists 9.0 W total power for the Heat Flow Experiment.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0004",
+              "title": "Measured heat flow at Hadley Rille",
+              "explanation": "NASA SP-289 reported a preliminary Hadley-Apennine heat-flow value of 3.3 × 10⁻⁶ W/cm² (33 mW/m², ±15 percent). The later NASA-RP-1036 table reports 21 mW/m² at Hadley Rille. The values are retained separately as results from different report and analysis stages.",
+              "significance": "The experiment provided a direct measurement of heat escaping through the lunar surface and helped constrain the thermal properties of the upper lunar regolith and the Moon’s interior.",
+              "claim_ids": [
+                "CLM-0050"
+              ],
+              "source": "SRC-0016"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0007",
+              "title": "Long-duration lunar subsurface temperature record",
+              "explanation": "The Apollo 15 HFE recorded subsurface temperatures over several years, allowing researchers to study both solar-driven temperature variations and the thermal gradient associated with heat from the lunar interior.",
+              "significance": "The data improved knowledge of the thermal and mechanical properties of the upper lunar regolith.",
+              "claim_ids": [
+                "CLM-0050"
+              ],
+              "source": "SRC-0016"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": {
+            "electronics_or_package_m": [
+              0.24,
+              0.25,
+              0.28
+            ],
+            "probe_stowed_m": [
+              0.086,
+              0.114,
+              0.648
+            ]
+          },
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [
+            "Gradient bridges: one per probe section; measure temperature differences between sensors separated by 47 cm.",
+            "Ring bridges: one per probe section; measure temperature differences between sensors separated by 28 cm.",
+            "Cable thermocouples: four per probe, spaced along the first 2.5 m of cable above the probe.",
+            "Thermocouple reference bridge: one per experiment, mounted on the electronics-box radiation plate."
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0008",
+      "equipment_name": "Lunar Surface Magnetometer",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 15",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Hadley Rille, Apollo 15. NASA SP-289 reports the LSM instrument location as 26°26′ N, 3°29′ E.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 8.9,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "ALSEP central-station electrical supply; NASA SP-289 lists average power of 3.5 W during lunar day and 9.4 W during lunar night.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0005",
+              "title": "Local remanent magnetic field at Hadley Rille",
+              "explanation": "NASA SP-289 reports a remanent magnetic field of 6 ± 4 gamma at the Apollo 15 site. The report compares this with stronger values measured at Apollo 12 and Apollo 14 and concludes that the observed remanent field strengths vary substantially from site to site.",
+              "significance": "The site-to-site differences supported the interpretation that the measured remanent magnetic sources were local rather than a single global lunar field.",
+              "claim_ids": [
+                "CLM-0054"
+              ],
+              "source": "SRC-0018"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0008",
+              "title": "Lunar interior and solar-wind interaction measurements",
+              "explanation": "The LSM data contributed to studies of lunar electrical conductivity, internal structure and magnetic-field interactions with the solar wind.",
+              "significance": "The instrument provided a long-duration surface magnetic record that could be analyzed alongside solar-wind measurements and data from other lunar stations.",
+              "claim_ids": [
+                "CLM-0052",
+                "CLM-0054"
+              ],
+              "source": "SRC-0018"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": {
+            "length_m": 0.63,
+            "width_m": 0.28,
+            "height_m": 0.25
+          },
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [
+            "Three orthogonal fluxgate magnetometer sensors"
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0009",
+      "equipment_name": "Apollo 15 Solar Wind Spectrometer",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "ALSEP scientific instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 15",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Hadley Rille Apollo 15 ALSEP deployment area. NASA sources identify the site but do not provide a separately surveyed coordinate for the SWS in the passages used here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 5.7,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "ALSEP central-station electrical supply; NASA-RP-1036 lists total SWS power as 12.5 W.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0006",
+              "title": "Apollo 15 solar-wind and electron observations",
+              "explanation": "NASA-RP-1036 reports an approximately 3-gamma local magnetic field at the Apollo 15 site. Proton measurements showed no measurable difference from upstream solar-wind data. Electron observations were broadly similar to expected upstream values, with occasional directional particle shadowing and lunar photoelectrons in the lowest-energy channels.",
+              "significance": "These observations characterized how the solar-wind plasma and low-energy electron population were measured at the Apollo 15 lunar surface site.",
+              "claim_ids": [
+                "CLM-0071"
+              ],
+              "source": "SRC-0016"
+            },
+            {
+              "discovery_id": "DSC-0007",
+              "title": "Contrasting solar-wind observations at Apollo 12 and Apollo 15",
+              "explanation": "The 1975 comparison paper reports stronger solar-wind perturbations at Apollo 12 than at Apollo 15. The Apollo 12 site had a relatively stronger local magnetic field; Apollo 15 observations showed no noticeable differences from upstream solar-wind properties.",
+              "significance": "The two-site comparison provided evidence that local lunar environments differed in their observed interaction with the solar wind.",
+              "claim_ids": [
+                "CLM-0072"
+              ],
+              "source": "SRC-0024"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0009",
+              "title": "Simultaneous lunar-surface plasma observations",
+              "explanation": "The Apollo 15 SWS joined the Apollo 12 SWS as a second solar-wind spectrometer on the lunar surface. NASA SP-289 notes that the two instruments were separated by approximately 1,100 km and offered the opportunity to compare solar plasma at two locations.",
+              "significance": "The two-site measurements supported comparisons of solar-wind plasma conditions and their interaction with the Moon.",
+              "claim_ids": [
+                "CLM-0060",
+                "CLM-0062"
+              ],
+              "source": "SRC-0018"
+            },
+            {
+              "contribution_id": "CON-0010",
+              "title": "Comparative observations of the solar wind at two lunar sites",
+              "explanation": "The Apollo 12/Apollo 15 study compared spectrometer observations from two lunar locations and reported stronger solar-wind perturbations at Apollo 12 than at Apollo 15, alongside the difference in their local magnetic-field environments.",
+              "significance": "The comparison helped investigate how local lunar magnetic environments relate to solar-wind plasma observations at the lunar surface.",
+              "claim_ids": [
+                "CLM-0072"
+              ],
+              "source": "SRC-0024"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": {
+            "length_m": 0.305,
+            "width_m": 0.282,
+            "height_m": 0.345
+          },
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [
+            "Seven modulated Faraday-cup sensors"
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0010",
+      "equipment_name": "Active Seismic Experiment",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Moon",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "Instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Apollo 16",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "DECOMMISSIONED",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Apollo 16 Descartes highlands ALSEP deployment site. Published coordinates identify the array/central-station site, not the individual geophone positions.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": -8.97537,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "longitude": {
+          "value": 15.49812,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "Stationary surface instrument after deployment; no self-propelled mobility system.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0008",
+              "title": "Two-layer near-surface seismic velocity structure at the Apollo 16 Descartes site",
+              "explanation": "Apollo 16 ASE preliminary analysis identified a 114 m/s compressional-wave velocity in the surface layer, interpreted as lunar regolith. A faster 250 m/s refracting horizon was estimated at 12.2 m depth. NASA treated the deeper material's geological identity as preliminary rather than definitively established.",
+              "significance": "The result provided an in-situ seismic constraint on the shallow highlands subsurface and helped distinguish the regolith from the underlying material at the Descartes landing site.",
+              "claim_ids": [
+                "CLM-0080",
+                "CLM-0081"
+              ],
+              "source": "SRC-0025"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0011",
+              "title": "Apollo 16 highlands active-seismic profile",
+              "explanation": "The ASE added an active-seismic profile from the Descartes highlands, providing a measured near-surface velocity and evidence for a deeper, faster refracting horizon. NASA compared the 114 m/s Apollo 16 surface-layer result with earlier Apollo landing-site values; those earlier values are comparisons only, not Apollo 16 measurements.",
+              "significance": "The experiment expanded the geographic coverage of lunar near-surface seismic measurements into a highlands setting and supported comparative studies of lunar regolith properties.",
+              "claim_ids": [
+                "CLM-0080",
+                "CLM-0085"
+              ],
+              "source": "SRC-0025"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [
+            "Three miniature moving-coil/magnet geophones arranged as a linear receiving array."
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0036",
+      "equipment_name": "Perseverance SuperCam",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Mars",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Mars 2020",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "OPERATIONAL",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Mounted on Perseverance’s remote-sensing mast; the mast unit is carried by the rover at Jezero Crater. Exact current rover coordinates are not established by the sources cited here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": "Powered through the parent rover/lander electrical system; detailed instrument-specific electrical interface not specified in the cited summary source.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "No independent mobility; carried by and/or deployed from the parent rover/lander.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0037",
+      "equipment_name": "Perseverance Mars Environmental Dynamics Analyzer (MEDA)",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Mars",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Mars 2020",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "OPERATIONAL",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "MEDA sensors are distributed on Perseverance’s mast, deck, front and interior of the rover body at Jezero Crater. Exact current rover coordinates are not established by the sources cited here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 5.5,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "Powered through the parent rover/lander electrical system; detailed instrument-specific electrical interface not specified in the cited summary source.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "No independent mobility; carried by and/or deployed from the parent rover/lander.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0038",
+      "equipment_name": "Perseverance Radar Imager for Mars' Subsurface Experiment (RIMFAX)",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Mars",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "Mars 2020",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": "OPERATIONAL",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "The radar antenna is mounted on the lower rear of Perseverance. The rover operates in Jezero Crater; exact current rover coordinates are not established by the sources cited here.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": "Powered through the parent rover/lander electrical system; detailed instrument-specific electrical interface not specified in the cited summary source.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "No independent mobility; carried by and/or deployed from the parent rover/lander.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0039",
+      "equipment_name": "InSight Seismic Experiment for Interior Structure (SEIS)",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Mars",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "InSight",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "Deployed on the surface of Mars beside the InSight lander in Elysium Planitia. Exact instrument coordinates were not verified independently from the lander location.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "primary_power_source": {
+          "value": "Powered through the InSight lander electrical system; detailed instrument-specific electrical interface not specified in the cited summary source.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "No independent mobility; carried by and/or deployed from the parent rover/lander.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [
+            {
+              "discovery_id": "DSC-0209",
+              "title": "First likely marsquake recorded by SEIS",
+              "explanation": "On 2019-04-06, SEIS recorded a seismic event that NASA described as the first likely marsquake.",
+              "significance": "The measurement provided the first likely evidence of seismic activity originating within Mars, enabling investigation of the planet’s interior.",
+              "claim_ids": [
+                "CLM-0590"
+              ],
+              "source": "SRC-0160"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": "approximately 3 L volume",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0040",
+      "equipment_name": "InSight Heat Flow and Physical Properties Package (HP³)",
+      "projection_status": "PARTIAL_DIRECT_MAPPINGS",
+      "attributes": {
+        "destination": {
+          "value": "Mars",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "equipment_type": {
+          "value": "instrument",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "mission": {
+          "value": "InSight",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "class": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "program": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "operational_status": {
+          "value": null,
+          "state": "NOT_RECORDED",
+          "reason": "Mapped canonical field is explicitly empty."
+        },
+        "launch_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_site": {
+          "value": "The HP³ package was deployed onto the Martian surface near InSight in Elysium Planitia. The mole remained at the surface/very shallow subsurface and did not reach its planned depth. Exact instrument coordinates were not verified independently.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "latitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "longitude": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "launch_mass": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployed_mass": {
+          "value": 3.0,
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_power_source": {
+          "value": "Powered through the InSight lander electrical system; detailed instrument-specific electrical interface not specified in the cited summary source.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "secondary_power_source": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mobility_capabilities": {
+          "value": "No independent mobility; carried by and/or deployed from the parent rover/lander.",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "major_discoveries": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "scientific_legacy": {
+          "value": [
+            {
+              "contribution_id": "CON-0210",
+              "title": "Engineering lessons from HP³ subsurface penetration attempt",
+              "explanation": "The HP³ mole encountered regolith behaviour that did not provide sufficient friction for its self-hammering mechanism to advance to the intended depth. The mission’s attempts to assist the mole generated operational and engineering experience for future planetary subsurface systems.",
+              "significance": "The attempt documented the challenges of penetrating Martian regolith with a self-hammering probe; the intended deep heat-flow measurement was not achieved.",
+              "claim_ids": [
+                "CLM-0595"
+              ],
+              "source": "SRC-0162"
+            }
+          ],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "primary_landing_type": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "landing_mechanism": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "deployment_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "No approved direct canonical mapping exists."
+        },
+        "mission_end_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "last_contact_date": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "mission_duration": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_dimensions": {
+          "value": "approximately 20 L total volume including control electronics",
+          "state": "PRESENT",
+          "reason": null
+        },
+        "communication_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "data_collection_capability": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        },
+        "navigation_system": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "equipment_design_life": {
+          "value": null,
+          "state": "INSUFFICIENT_EVIDENCE",
+          "reason": "Mapped canonical field is absent from this record."
+        },
+        "instruments_payload": {
+          "value": [],
+          "state": "PRESENT",
+          "reason": null
+        }
+      },
+      "source_record": "canonical/equipment.json"
+    }
+  ],
+  "note": "Only direct canonical mappings are populated. Missing values retain explicit states; no comparative conclusions are generated automatically."
+}

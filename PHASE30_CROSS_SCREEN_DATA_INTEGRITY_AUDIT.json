@@ -1,0 +1,102 @@
+{
+  "phase": 30,
+  "status": "PASS",
+  "checks_total": 17,
+  "checks_passed": 17,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "equipment IDs unique and populated",
+      "passed": true,
+      "detail": "15 records; 15 unique"
+    },
+    {
+      "name": "mission IDs unique and populated",
+      "passed": true,
+      "detail": "7 records; 7 unique"
+    },
+    {
+      "name": "claim IDs unique and populated",
+      "passed": true,
+      "detail": "131 records; 131 unique"
+    },
+    {
+      "name": "source IDs unique within equipment scope",
+      "passed": true,
+      "detail": "69 composite keys; 69 unique; 45 bare IDs"
+    },
+    {
+      "name": "event IDs unique and populated",
+      "passed": true,
+      "detail": "72 records; 72 unique"
+    },
+    {
+      "name": "Equipment-to-mission links resolve bidirectionally",
+      "passed": true,
+      "detail": "equipment-side=[]; mission-side=[]"
+    },
+    {
+      "name": "Claim equipment/source references resolve and agree",
+      "passed": true,
+      "detail": "0 issues: []"
+    },
+    {
+      "name": "Source equipment references resolve",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Timeline event equipment/claim/source references resolve and agree",
+      "passed": true,
+      "detail": "0 issues: []"
+    },
+    {
+      "name": "library.json covers canonical equipment IDs",
+      "passed": true,
+      "detail": "15 rows; missing=[]; extra=[]"
+    },
+    {
+      "name": "filters-index.json covers canonical equipment IDs",
+      "passed": true,
+      "detail": "15 rows; missing=[]; extra=[]"
+    },
+    {
+      "name": "compare-index.json covers canonical equipment IDs",
+      "passed": true,
+      "detail": "15 rows; missing=[]; extra=[]"
+    },
+    {
+      "name": "timeline.json equipment refs resolve",
+      "passed": true,
+      "detail": "72 event rows"
+    },
+    {
+      "name": "Compare registry contains 30 ordered attributes",
+      "passed": true,
+      "detail": "registry=30; projection=30"
+    },
+    {
+      "name": "Quiz candidate ledger references resolve",
+      "passed": true,
+      "detail": "114 candidates; issues=[]"
+    },
+    {
+      "name": "Publication states use approved vocabulary",
+      "passed": true,
+      "detail": "Counter({'Draft': 15})"
+    },
+    {
+      "name": "Verification status is not conflated with publication state",
+      "passed": true,
+      "detail": "separate fields present"
+    }
+  ],
+  "issues": [],
+  "counts": {
+    "equipment": 15,
+    "missions": 7,
+    "claims": 131,
+    "sources": 69,
+    "events": 72
+  }
+}

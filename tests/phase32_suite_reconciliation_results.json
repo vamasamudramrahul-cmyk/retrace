@@ -1,0 +1,207 @@
+{
+  "phase": 32,
+  "title": "Browser Test Suite Reconciliation",
+  "summary": {
+    "passed": 39,
+    "failed": 0,
+    "total": 39
+  },
+  "results": [
+    {
+      "test": "Current DOM supports Filters destination",
+      "result": "PASS",
+      "detail": "#f-dest"
+    },
+    {
+      "test": "Current DOM supports Filters result count",
+      "result": "PASS",
+      "detail": "#f-count"
+    },
+    {
+      "test": "Current DOM supports Filters reset",
+      "result": "PASS",
+      "detail": "#f-reset"
+    },
+    {
+      "test": "Current DOM supports Library search",
+      "result": "PASS",
+      "detail": "#lib-q"
+    },
+    {
+      "test": "Current DOM supports Library count",
+      "result": "PASS",
+      "detail": "#lib-count"
+    },
+    {
+      "test": "Current DOM supports Compare first selector",
+      "result": "PASS",
+      "detail": "#ca"
+    },
+    {
+      "test": "Current DOM supports Compare second selector",
+      "result": "PASS",
+      "detail": "#cb"
+    },
+    {
+      "test": "Current DOM supports Compare report",
+      "result": "PASS",
+      "detail": "#compare-report"
+    },
+    {
+      "test": "Current DOM supports Quiz equipment picker",
+      "result": "PASS",
+      "detail": "data-pick=\"${esc(r.equipment_id)}\""
+    },
+    {
+      "test": "Current DOM supports Quiz unavailable state",
+      "result": "PASS",
+      "detail": "#quiz-selection"
+    },
+    {
+      "test": "Current DOM supports Destination timeline",
+      "result": "PASS",
+      "detail": "id=\"${destination.toLowerCase()}-timeline\""
+    },
+    {
+      "test": "Current DOM supports Timeline filter",
+      "result": "PASS",
+      "detail": "id=\"${id}\""
+    },
+    {
+      "test": "Current DOM supports Timeline count",
+      "result": "PASS",
+      "detail": "id=\"${id}-count\""
+    },
+    {
+      "test": "Current DOM supports Full Details section anchors",
+      "result": "PASS",
+      "detail": "id=\"detail-${key}\""
+    },
+    {
+      "test": "Current DOM supports Full Details section navigation",
+      "result": "PASS",
+      "detail": "#rt-section-nav-panel"
+    },
+    {
+      "test": "Current DOM supports Mobile navigation drawer",
+      "result": "PASS",
+      "detail": "#drawer"
+    },
+    {
+      "test": "Current DOM supports Mobile navigation accordion",
+      "result": "PASS",
+      "detail": ".drawer-acc"
+    },
+    {
+      "test": "Current DOM supports Universal search input",
+      "result": "PASS",
+      "detail": "#search-input"
+    },
+    {
+      "test": "Current DOM supports Universal search results",
+      "result": "PASS",
+      "detail": "a.result"
+    },
+    {
+      "test": "Route is implemented: /destination/moon",
+      "result": "PASS",
+      "detail": "/destination/moon"
+    },
+    {
+      "test": "Route is implemented: /destination/mars",
+      "result": "PASS",
+      "detail": "/destination/mars"
+    },
+    {
+      "test": "Route is implemented: /destination/planets",
+      "result": "PASS",
+      "detail": "/destination/planets"
+    },
+    {
+      "test": "Route is implemented: /equipment",
+      "result": "PASS",
+      "detail": "/equipment"
+    },
+    {
+      "test": "Route is implemented: /filters",
+      "result": "PASS",
+      "detail": "/filters"
+    },
+    {
+      "test": "Route is implemented: /library/compare",
+      "result": "PASS",
+      "detail": "/library/compare"
+    },
+    {
+      "test": "Route is implemented: /library/quiz",
+      "result": "PASS",
+      "detail": "/library/quiz"
+    },
+    {
+      "test": "Route is implemented: /library/glossary",
+      "result": "PASS",
+      "detail": "/library/glossary"
+    },
+    {
+      "test": "Route is implemented: /about/sources",
+      "result": "PASS",
+      "detail": "/about/sources"
+    },
+    {
+      "test": "Route is implemented: /about/website",
+      "result": "PASS",
+      "detail": "/about/website"
+    },
+    {
+      "test": "Route is implemented: /updates",
+      "result": "PASS",
+      "detail": "/updates"
+    },
+    {
+      "test": "Route is implemented: /contact",
+      "result": "PASS",
+      "detail": "/contact"
+    },
+    {
+      "test": "Route is implemented: /feedback",
+      "result": "PASS",
+      "detail": "/feedback"
+    },
+    {
+      "test": "Route is implemented: /report",
+      "result": "PASS",
+      "detail": "/report"
+    },
+    {
+      "test": "Exact timeline empty-state copy is asserted",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Exact Filters empty-state copy is retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Quiz test asserts safe unavailable state",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Planets test reflects scoped notice",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Browser suite includes mobile Details drawer tests",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Browser suite does not treat browser blocking as pass",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "browser_execution": "SEPARATE \u2014 environment may block local navigation"
+}

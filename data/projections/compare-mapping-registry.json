@@ -1,0 +1,400 @@
+{
+  "registry_id": "RETRACE-COMPARE-MAPPING-REGISTRY",
+  "version": "1.0.0",
+  "attribute_count": 30,
+  "missing_value_states": {
+    "NOT_RECORDED": "Canonical record explicitly contains the mapped field with null or empty value.",
+    "INSUFFICIENT_EVIDENCE": "No approved canonical field mapping exists, or evidence is insufficient to populate the attribute.",
+    "NOT_APPLICABLE": "Use only when an approved source explicitly establishes that the attribute does not apply.",
+    "UNKNOWN": "Use only when canonical evidence explicitly classifies the value as unknown.",
+    "CONFLICTING_EVIDENCE": "Use only when linked verified sources conflict and the conflict is documented."
+  },
+  "rules": [
+    "Never infer values from mission-level context or equipment family.",
+    "Never substitute launch mass for deployed mass or vice versa.",
+    "A missing mapping is INSUFFICIENT_EVIDENCE, not a factual claim that the value is unknown.",
+    "Only populate direct canonical paths defined below.",
+    "Preserve original units and date precision until a separately approved normalization rule exists.",
+    "Similarity and difference conclusions require two PRESENT values and a validated comparison rule."
+  ],
+  "attributes": [
+    {
+      "attribute_id": "DESTINATION",
+      "key": "destination",
+      "label": "Destination",
+      "value_type": "categorical",
+      "canonical_path": [
+        "destination"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "EQUIPMENT_TYPE",
+      "key": "equipment_type",
+      "label": "Equipment type",
+      "value_type": "categorical",
+      "canonical_path": [
+        "category"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "MISSION",
+      "key": "mission",
+      "label": "Mission",
+      "value_type": "categorical",
+      "canonical_path": [
+        "mission"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "CLASS",
+      "key": "class",
+      "label": "Class",
+      "value_type": "text",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "PROGRAM",
+      "key": "program",
+      "label": "Program",
+      "value_type": "text",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "OPERATIONAL_STATUS",
+      "key": "operational_status",
+      "label": "Operational status",
+      "value_type": "status",
+      "canonical_path": [
+        "equipment_status"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LAUNCH_DATE",
+      "key": "launch_date",
+      "label": "Launch date",
+      "value_type": "date",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LANDING_DATE",
+      "key": "landing_date",
+      "label": "Landing date",
+      "value_type": "date",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LANDING_SITE",
+      "key": "landing_site",
+      "label": "Landing site",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "location_description"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LATITUDE",
+      "key": "latitude",
+      "label": "Latitude",
+      "value_type": "number",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "coordinates",
+        "latitude"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LONGITUDE",
+      "key": "longitude",
+      "label": "Longitude",
+      "value_type": "number",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "coordinates",
+        "longitude"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LAUNCH_MASS",
+      "key": "launch_mass",
+      "label": "Launch mass",
+      "value_type": "quantity",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "DEPLOYED_MASS",
+      "key": "deployed_mass",
+      "label": "Deployed mass",
+      "value_type": "quantity",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "mass_kg"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "PRIMARY_POWER_SOURCE",
+      "key": "primary_power_source",
+      "label": "Primary power source",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "power_source"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "SECONDARY_POWER_SOURCE",
+      "key": "secondary_power_source",
+      "label": "Secondary power source",
+      "value_type": "text",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "MOBILITY_CAPABILITIES",
+      "key": "mobility_capabilities",
+      "label": "Mobility capabilities",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "mobility_system"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "MAJOR_DISCOVERIES",
+      "key": "major_discoveries",
+      "label": "Major discoveries",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "discoveries_and_contributions",
+        "discoveries"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "SCIENTIFIC_LEGACY",
+      "key": "scientific_legacy",
+      "label": "Scientific legacy",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "discoveries_and_contributions",
+        "contributions"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "PRIMARY_LANDING_TYPE",
+      "key": "primary_landing_type",
+      "label": "Primary landing type",
+      "value_type": "text",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LANDING_MECHANISM",
+      "key": "landing_mechanism",
+      "label": "Landing mechanism",
+      "value_type": "text",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "DEPLOYMENT_DATE",
+      "key": "deployment_date",
+      "label": "Deployment date",
+      "value_type": "date",
+      "canonical_path": null,
+      "mapping_status": "UNMAPPED",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "MISSION_END_DATE",
+      "key": "mission_end_date",
+      "label": "Mission end date",
+      "value_type": "date",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "mission_end_date"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "LAST_CONTACT_DATE",
+      "key": "last_contact_date",
+      "label": "Last contact date",
+      "value_type": "date",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "last_contact_date"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "EXACT_NORMALIZED",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "MISSION_DURATION",
+      "key": "mission_duration",
+      "label": "Mission duration",
+      "value_type": "duration",
+      "canonical_path": [
+        "details",
+        "current_status_and_location",
+        "mission_duration"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "EQUIPMENT_DIMENSIONS",
+      "key": "equipment_dimensions",
+      "label": "Equipment dimensions",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "dimensions"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "COMMUNICATION_SYSTEM",
+      "key": "communication_system",
+      "label": "Communication system",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "communication_system"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "DATA_COLLECTION_CAPABILITY",
+      "key": "data_collection_capability",
+      "label": "Data collection capability",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "scientific_instruments"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "NAVIGATION_SYSTEM",
+      "key": "navigation_system",
+      "label": "Navigation system",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "navigation_system"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "EQUIPMENT_DESIGN_LIFE",
+      "key": "equipment_design_life",
+      "label": "Equipment design life",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "design_life"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "attribute_id": "INSTRUMENTS_PAYLOAD",
+      "key": "instruments_payload",
+      "label": "Instruments & Payload",
+      "value_type": "text",
+      "canonical_path": [
+        "details",
+        "how_was_it_built",
+        "instruments"
+      ],
+      "mapping_status": "MAPPED_DIRECT",
+      "comparison_rule": "MANUAL_REVIEW",
+      "missing_state_policy": "NOT_RECORDED when mapped path exists but value is null/empty; otherwise INSUFFICIENT_EVIDENCE"
+    }
+  ]
+}

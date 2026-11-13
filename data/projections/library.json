@@ -1,0 +1,348 @@
+{
+  "projection_id": "RETRACE-TEST-LIBRARY",
+  "version": "0.1.0",
+  "count": 15,
+  "records": [
+    {
+      "equipment_id": "MOON-EQ-0001",
+      "name": "Apollo 11 Lunar Surface Television Camera",
+      "destination": "Moon",
+      "mission": "Apollo 11",
+      "mission_ids": [
+        "MIS-0001"
+      ],
+      "category": "Surface television camera",
+      "equipment_status": "ABANDONED",
+      "verification_status": "VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "The Apollo 11 black-and-white lunar television camera transmitted live surface views. NASA sources place its tripod approximately 30 ft or 40 ft from the Lunar Module, so the exact reported distance is unresolved. It was left on the Moon; its present physical condition is unknown.",
+      "carousel_image": {
+        "url": "https://nssdc.gsfc.nasa.gov/imgcat/higher_res/apollo/as11_40_5931.jpg",
+        "source_page": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a11_h_40_5931.html",
+        "credit": "NASA",
+        "alt": "Apollo 11 astronaut Edwin Aldrin unloads the EASEP beside the Lunar Module; the lunar surface television camera is visible beyond the Lunar Module's right leg.",
+        "image_note": "Wide-context archival photograph. The NASA NSSDC catalog specifically identifies the distant object beyond the Lunar Module's right leg as the lunar surface TV camera; it is not a close-up of the camera.",
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0002",
+      "name": "ALSEP Central Station",
+      "destination": "Moon",
+      "mission": "Apollo 12",
+      "mission_ids": [
+        "MIS-0002"
+      ],
+      "category": "Hardware",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Central control, data-processing, communications, and power-distribution hub for the Apollo 12 Lunar Surface Experiments Package.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0003",
+      "name": "SNAP-27 Radioisotope Thermoelectric Generator",
+      "destination": "Moon",
+      "mission": "Apollo 12",
+      "mission_ids": [
+        "MIS-0002"
+      ],
+      "category": "Hardware",
+      "equipment_status": "INACTIVE",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Plutonium-238-powered radioisotope thermoelectric generator that supplied electrical power to the Apollo 12 ALSEP.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0004",
+      "name": "Lunar Surface Magnetometer",
+      "destination": "Moon",
+      "mission": "Apollo 12",
+      "mission_ids": [
+        "MIS-0002"
+      ],
+      "category": "Instrument",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "The Apollo 12 Lunar Surface Magnetometer measured the Moon's surface magnetic field using three orthogonal sensors. NASA reports give both a preliminary 36 ± 5 gamma result and a later 38 ± 3 nT permanent-field value. It was permanently commanded OFF in 1974; later diagnostic checks did not restore valid data.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0005",
+      "name": "Active Seismic Experiment",
+      "destination": "Moon",
+      "mission": "Apollo 14",
+      "mission_ids": [
+        "MIS-0003"
+      ],
+      "category": "Instrument",
+      "equipment_status": "INACTIVE",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "The Apollo 14 Active Seismic Experiment contributed seismic-refraction measurements of the lunar near-surface. NASA records that Apollo 14 central-station command capability was lost on 1975-03-05 and that the ASE status did not change at ALSEP termination on 1977-09-30. The equipment is classified INACTIVE from 1975-03-05; its last-contact date and physical condition remain UNKNOWN.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0006",
+      "name": "Charged Particle Lunar Environment Experiment",
+      "destination": "Moon",
+      "mission": "Apollo 14",
+      "mission_ids": [
+        "MIS-0003"
+      ],
+      "category": "Instrument",
+      "equipment_status": "INACTIVE",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Apollo 14 ALSEP charged-particle instrument that measured low-energy electron and ion fluxes from the lunar surface environment.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0007",
+      "name": "Heat Flow Experiment",
+      "destination": "Moon",
+      "mission": "Apollo 15",
+      "mission_ids": [
+        "MIS-0004"
+      ],
+      "category": "Instrument",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Apollo 15 ALSEP experiment that measured temperature and thermal properties in the lunar subsurface to determine heat flow from the Moon’s interior.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0008",
+      "name": "Lunar Surface Magnetometer",
+      "destination": "Moon",
+      "mission": "Apollo 15",
+      "mission_ids": [
+        "MIS-0004"
+      ],
+      "category": "Instrument",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Apollo 15 ALSEP triaxial fluxgate magnetometer that measured the lunar surface magnetic field and its response to solar and terrestrial magnetic fields.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0009",
+      "name": "Apollo 15 Solar Wind Spectrometer",
+      "destination": "Moon",
+      "mission": "Apollo 15",
+      "mission_ids": [
+        "MIS-0004"
+      ],
+      "category": "ALSEP scientific instrument",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Apollo 15 ALSEP spectrometer that measured the direction and energy of solar-wind electrons and positive ions reaching the lunar surface.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MOON-EQ-0010",
+      "name": "Active Seismic Experiment",
+      "destination": "Moon",
+      "mission": "Apollo 16",
+      "mission_ids": [
+        "MIS-0005"
+      ],
+      "category": "Instrument",
+      "equipment_status": "DECOMMISSIONED",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "Apollo 16 ALSEP instrument that used a three-geophone array to record seismic waves and investigate the shallow subsurface at the Descartes highlands landing site. Hazardous seismic-source subsystem details are intentionally omitted.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0036",
+      "name": "Perseverance SuperCam",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "mission_ids": [
+        "MIS-0020"
+      ],
+      "category": "instrument",
+      "equipment_status": "OPERATIONAL",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "SuperCam is a remote-sensing instrument suite on the Perseverance rover mast. NASA describes its combination of laser, camera and spectrometers for examining Martian rocks and soils from a distance.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0037",
+      "name": "Perseverance Mars Environmental Dynamics Analyzer (MEDA)",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "mission_ids": [
+        "MIS-0020"
+      ],
+      "category": "instrument",
+      "equipment_status": "OPERATIONAL",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "MEDA is Perseverance’s distributed environmental sensor suite. It measures wind, air and ground temperature, humidity, pressure, radiation and airborne dust.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0038",
+      "name": "Perseverance Radar Imager for Mars' Subsurface Experiment (RIMFAX)",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "mission_ids": [
+        "MIS-0020"
+      ],
+      "category": "instrument",
+      "equipment_status": "OPERATIONAL",
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "RIMFAX is a ground-penetrating radar carried by Perseverance. It transmits and receives radar signals to build images of subsurface structures as the rover traverses.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0039",
+      "name": "InSight Seismic Experiment for Interior Structure (SEIS)",
+      "destination": "Mars",
+      "mission": "InSight",
+      "mission_ids": [],
+      "category": "instrument",
+      "equipment_status": null,
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "SEIS was InSight’s seismometer package. It combined very-broad-band and short-period sensors and was placed directly on the Martian surface beneath a protective wind and thermal shield.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    },
+    {
+      "equipment_id": "MARS-EQ-0040",
+      "name": "InSight Heat Flow and Physical Properties Package (HP³)",
+      "destination": "Mars",
+      "mission": "InSight",
+      "mission_ids": [],
+      "category": "instrument",
+      "equipment_status": null,
+      "verification_status": "PARTIALLY_VERIFIED",
+      "publication_state": "Draft",
+      "short_description": "HP³ was InSight’s Heat Flow and Physical Properties Package. Its self-hammering mole was designed to penetrate several metres into the ground while a tether and sensors measured subsurface temperature and thermal properties.",
+      "carousel_image": {
+        "url": null,
+        "source_page": null,
+        "credit": null,
+        "alt": null,
+        "image_note": null,
+        "type": "NASA photograph"
+      },
+      "projection_source": "canonical/equipment.json"
+    }
+  ]
+}

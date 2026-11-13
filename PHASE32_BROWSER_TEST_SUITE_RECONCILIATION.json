@@ -1,0 +1,54 @@
+{
+  "phase": 32,
+  "title": "Browser Test Suite Reconciliation",
+  "status": "RECONCILIATION_COMPLETE_BROWSER_ACCEPTANCE_BLOCKED",
+  "static_reconciliation": {
+    "passed": 39,
+    "failed": 0,
+    "total": 39
+  },
+  "browser_attempt": {
+    "passed": 0,
+    "failed": 0,
+    "blocked": 3,
+    "total": 3
+  },
+  "browser_status": "NOT_VERIFIED",
+  "changes": [
+    "Reconciled Planets compatibility route expectation",
+    "Added destination timeline filter/count assertions",
+    "Added eight-section Full Details assertion",
+    "Added mobile Full Details navigation disclosure assertions",
+    "Added return-navigation assertion"
+  ],
+  "regression_suites": {
+    "phase21": {
+      "passed": 51,
+      "failed": 0
+    },
+    "phase24": {
+      "passed": 16,
+      "failed": 0
+    },
+    "phase25": {
+      "passed": 12,
+      "failed": 0
+    },
+    "phase26": {
+      "passed": 10,
+      "failed": 0
+    },
+    "phase29": {
+      "passed": 6,
+      "failed": 0
+    }
+  },
+  "integrity": {
+    "application_code_changed": false,
+    "nasa_research_data_changed": false,
+    "publication_states_changed": false,
+    "original_base_zip_modified": false,
+    "final_zip_packaged": false
+  },
+  "blocker": "net::ERR_BLOCKED_BY_ADMINISTRATOR prevents local browser navigation before app load at desktop, tablet, and mobile viewports."
+}

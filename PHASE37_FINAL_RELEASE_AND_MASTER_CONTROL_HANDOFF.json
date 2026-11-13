@@ -1,0 +1,77 @@
+{
+  "phase": "37",
+  "title": "Final Release Preflight & Master Control Handoff",
+  "decision": "NOT_RELEASE_READY",
+  "phase37_checks": {
+    "passed": 11,
+    "failed": 0
+  },
+  "regression_suites": {
+    "phase21": {
+      "passed": 51,
+      "failed": 0
+    },
+    "phase24": {
+      "passed": 16,
+      "failed": 0
+    },
+    "phase25": {
+      "passed": 12,
+      "failed": 0
+    },
+    "phase26": {
+      "passed": 10,
+      "failed": 0
+    },
+    "phase29": {
+      "passed": 6,
+      "failed": 0
+    },
+    "phase32": {
+      "passed": 39,
+      "failed": 0
+    }
+  },
+  "regression_total": {
+    "passed": 134,
+    "failed": 0
+  },
+  "all_static_targeted_including_phase37": {
+    "passed": 145,
+    "failed": 0
+  },
+  "browser_acceptance": {
+    "status": "NOT_VERIFIED",
+    "reason": "Prior local navigation attempts blocked by net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "tests_passed": 0,
+    "tests_failed": 0
+  },
+  "focus_indicator": {
+    "status": "IMPLEMENTED_STATICALLY_CHECKED",
+    "outline": "#FFFFFF",
+    "outer_ring": "#000080",
+    "contrast_ratios": {
+      "navy_on_white": 16.01,
+      "white_on_space_dark": 19.13,
+      "navy_on_sky": 7.47
+    }
+  },
+  "publication": {
+    "equipment_records": 15,
+    "state": "Draft",
+    "approved_for_publication": 0
+  },
+  "known_blockers": [
+    "authorized browser acceptance",
+    "browser accessibility and responsive review",
+    "Compare attribute-level citations and approved rules",
+    "approved evidence-linked Quiz question bank",
+    "Mars 2020 mission registry evidence",
+    "approved contact recipient or formally disabled contact routes",
+    "NASA factual/status review and publication approval",
+    "restricted Apollo 16 bibliographic record review"
+  ],
+  "base_zip_sha256": "26115589ac4c01ac5e1580a95898bbe7f29c00fca323cfd497dca9946604179b",
+  "original_base_zip_modified": false,
+  "final_zip_created": false
+}

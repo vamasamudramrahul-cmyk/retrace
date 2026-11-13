@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "passed": 0,
+    "failed": 0,
+    "blocked": 3,
+    "total": 3
+  },
+  "results": [
+    {
+      "test": "desktop: browser can load local test site",
+      "result": "BLOCKED",
+      "detail": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:44981/\nCall log:\n  - navigating to \"http://127.0.0.1:44981/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "test": "tablet: browser can load local test site",
+      "result": "BLOCKED",
+      "detail": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:44981/\nCall log:\n  - navigating to \"http://127.0.0.1:44981/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "test": "mobile: browser can load local test site",
+      "result": "BLOCKED",
+      "detail": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:44981/\nCall log:\n  - navigating to \"http://127.0.0.1:44981/\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}

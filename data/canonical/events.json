@@ -1,0 +1,1448 @@
+{
+  "count": 72,
+  "records": [
+    {
+      "record_key": "MOON-EQ-0001::EVT-0001",
+      "equipment_id": "MOON-EQ-0001",
+      "destination": "Moon",
+      "mission_name": "Apollo 11",
+      "event_id": "EVT-0001",
+      "event_name": "Apollo 11 launch",
+      "event_date": "1969-07-16",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Apollo 11 launched from Kennedy Space Center carrying the Lunar Module and its surface television camera.",
+      "claim_ids": [
+        "CLM-0039"
+      ],
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0001::EVT-0002",
+      "equipment_id": "MOON-EQ-0001",
+      "destination": "Moon",
+      "mission_name": "Apollo 11",
+      "event_id": "EVT-0002",
+      "event_name": "Lunar landing and camera deployment",
+      "event_date": "1969-07-20",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "The Lunar Module Eagle landed at Tranquility Base; the camera was deployed from the MESA and used to transmit surface television.",
+      "claim_ids": [
+        "CLM-0004"
+      ],
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0001::EVT-0003",
+      "equipment_id": "MOON-EQ-0001",
+      "destination": "Moon",
+      "mission_name": "Apollo 11",
+      "event_id": "EVT-0003",
+      "event_name": "Tripod placement",
+      "event_date": "1969-07-20",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "operation",
+      "event_description": "Armstrong mounted the camera on a tripod. The Apollo 11 Press Kit diagram gives an approximate LM distance of 30 ft, while the Mission Report prose gives approximately 40 ft; the source discrepancy remains unresolved.",
+      "claim_ids": [
+        "CLM-0004"
+      ],
+      "source_ids": [
+        "SRC-0002"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0002::EVT-0004",
+      "equipment_id": "MOON-EQ-0002",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0004",
+      "event_name": "Apollo 12 launch",
+      "event_date": "1969-11-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Apollo 12 launched carrying the ALSEP equipment package.",
+      "claim_ids": [
+        "CLM-0035"
+      ],
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0002::EVT-0005",
+      "equipment_id": "MOON-EQ-0002",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0005",
+      "event_name": "ALSEP deployment and activation",
+      "event_date": "1969-11-19",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "The Apollo 12 ALSEP central station was first commanded ON at 14:21 GMT on 1969-11-19.",
+      "claim_ids": [
+        "CLM-0010"
+      ],
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0002::EVT-0006",
+      "equipment_id": "MOON-EQ-0002",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0006",
+      "event_name": "ALSEP support terminated",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "mission_termination",
+      "event_description": "NASA terminated ALSEP support operations and receipt of lunar surface data; the Apollo 12 central station was listed as commanded off.",
+      "claim_ids": [
+        "CLM-0011"
+      ],
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0003::EVT-0007",
+      "equipment_id": "MOON-EQ-0003",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0007",
+      "event_name": "Apollo 12 launch",
+      "event_date": "1969-11-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Apollo 12 launched carrying the ALSEP power system and experiments.",
+      "claim_ids": [
+        "CLM-0036"
+      ],
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0003::EVT-0008",
+      "equipment_id": "MOON-EQ-0003",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0008",
+      "event_name": "SNAP-27 deployment",
+      "event_date": "1969-11-19",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "The SNAP-27 generator was deployed as the power source for the Apollo 12 ALSEP.",
+      "claim_ids": [
+        "CLM-0016"
+      ],
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0003::EVT-0009",
+      "equipment_id": "MOON-EQ-0003",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0009",
+      "event_name": "ALSEP support termination",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "mission_termination",
+      "event_description": "NASA terminated ALSEP data receipt on 1977-09-30. NASA's record describes SNAP-27 units as operating until station shutdown; no separate Apollo 12 generator OFF command is established. This event marks the end of the station's mission/data operations, not cessation of radioisotope decay heat.",
+      "claim_ids": [
+        "CLM-0017",
+        "CLM-0018"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0010",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0010",
+      "event_name": "Apollo 12 launch",
+      "event_date": "1969-11-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "NASA-SP-235's magnetometer operations table records Apollo 12 liftoff on 1969-11-14 at 16:22 GMT.",
+      "claim_ids": [
+        "CLM-0037"
+      ],
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0011",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0011",
+      "event_name": "Lunar Surface Magnetometer deployed",
+      "event_date": "1969-11-19",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "NASA-SP-235 Table 4-IV records deployment at 14:01 GMT. The report's narrative passage separately states 14:00 G.m.t.; the one-minute discrepancy is preserved in the evidence notes.",
+      "claim_ids": [
+        "CLM-0023"
+      ],
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0017",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0017",
+      "event_name": "Lunar Surface Magnetometer activated",
+      "event_date": "1969-11-19",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "activation",
+      "event_description": "NASA-SP-235 records the instrument turned ON at 14:39 GMT.",
+      "claim_ids": [
+        "CLM-0023"
+      ],
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0012",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0012",
+      "event_name": "LSM permanently commanded off",
+      "event_date": "1974-06-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "decommissioning",
+      "event_description": "NASA permanently commanded the Apollo 12 Lunar Surface Magnetometer OFF on 1974-06-14. The report states that science and engineering data had been static and invalid since 1972-06-14.",
+      "claim_ids": [
+        "CLM-0024"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0018",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0018",
+      "event_name": "Post-OFF diagnostic check",
+      "event_date": "1974-07-02",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic_check",
+      "event_description": "NASA-RP-1036 records an Apollo 12 magnetometer ON command during real-time support. The diagnostic sequence did not return valid scientific or engineering data.",
+      "claim_ids": [
+        "CLM-0040"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0019",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0019",
+      "event_name": "Post-OFF diagnostic check",
+      "event_date": "1974-07-03",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic_check",
+      "event_description": "NASA-RP-1036 records another Apollo 12 magnetometer ON command during real-time support. The reported checks did not return valid scientific or engineering data.",
+      "claim_ids": [
+        "CLM-0040"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0020",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0020",
+      "event_name": "Post-OFF diagnostic check",
+      "event_date": "1974-08-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic_check",
+      "event_description": "NASA-RP-1036 records a further Apollo 12 magnetometer ON command during real-time support. The reported checks did not return valid scientific or engineering data.",
+      "claim_ids": [
+        "CLM-0040"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0004::EVT-0021",
+      "equipment_id": "MOON-EQ-0004",
+      "destination": "Moon",
+      "mission_name": "Apollo 12",
+      "event_id": "EVT-0021",
+      "event_name": "Final reported diagnostic ON command",
+      "event_date": "1974-09-03",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic_check",
+      "event_description": "NASA-RP-1036 records an ON command for the Apollo 12 magnetometer; it drew negligible power and returned no valid scientific or engineering data.",
+      "claim_ids": [
+        "CLM-0040"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0005::EVT-0013",
+      "equipment_id": "MOON-EQ-0005",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0013",
+      "event_name": "Apollo 14 launch",
+      "event_date": "1971-01-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Apollo 14 launched from Kennedy Space Center on 1971-01-31, carrying the ALSEP and Active Seismic Experiment.",
+      "claim_ids": [
+        "CLM-0038"
+      ],
+      "source_ids": [
+        "SRC-0011"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0005::EVT-0014",
+      "equipment_id": "MOON-EQ-0005",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0014",
+      "event_name": "ALSEP and ASE deployment",
+      "event_date": "1971-02-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "The crew deployed the ALSEP array during the first lunar-surface EVA at Fra Mauro.",
+      "claim_ids": [
+        "CLM-0025",
+        "CLM-0029"
+      ],
+      "source_ids": [
+        "SRC-0011"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0005::EVT-0016",
+      "equipment_id": "MOON-EQ-0005",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0016",
+      "event_name": "Apollo 14 station failure",
+      "event_date": null,
+      "date_precision": "UNKNOWN",
+      "event_type_as_recorded": "status_change",
+      "event_description": "NASA's ALSEP status table reports that the Apollo 14 station failed during January 1976. The exact day and the Active Seismic Experiment's independent component-level final status are not established.",
+      "claim_ids": [
+        "CLM-0030"
+      ],
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0006::EVT-0022",
+      "equipment_id": "MOON-EQ-0006",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0022",
+      "event_name": "CPLEE deployed",
+      "event_date": "1971-02-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "NASA SP-272 records deployment at approximately 18:00 GMT northeast of the ALSEP central station.",
+      "claim_ids": [
+        "CLM-0044"
+      ],
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0006::EVT-0023",
+      "equipment_id": "MOON-EQ-0006",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0023",
+      "event_name": "Initial functional test",
+      "event_date": "1971-02-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "activation",
+      "event_description": "The instrument was first commanded ON at 19:00 GMT for a five-minute functional test; the data and housekeeping channels were active.",
+      "claim_ids": [
+        "CLM-0045"
+      ],
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0006::EVT-0024",
+      "equipment_id": "MOON-EQ-0006",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0024",
+      "event_name": "Dust cover removed and science data began",
+      "event_date": "1971-02-06",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "operation",
+      "event_description": "After the Lunar Module ascent, CPLEE was commanded ON at 19:10 GMT and its dust cover was removed at 19:30 GMT. The instrument then began returning charged-particle flux data.",
+      "claim_ids": [
+        "CLM-0045"
+      ],
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0006::EVT-0025",
+      "equipment_id": "MOON-EQ-0006",
+      "destination": "Moon",
+      "mission_name": "Apollo 14",
+      "event_id": "EVT-0025",
+      "event_name": "Configured to standby at ALSEP closeout",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "status_change",
+      "event_description": "At the end of ALSEP termination testing, the Apollo 14 CPLEE was configured to STANDBY. This is an equipment-specific recorded configuration, not evidence of its present physical condition.",
+      "claim_ids": [
+        "CLM-0046"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0007::EVT-0026",
+      "equipment_id": "MOON-EQ-0007",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0026",
+      "event_name": "Apollo 15 Heat Flow Experiment deployed",
+      "event_date": "1971-07-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "NASA SP-289 documents the HFE deployment during Apollo 15 surface operations on 1971-07-31.",
+      "claim_ids": [
+        "CLM-0048"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0007::EVT-0027",
+      "equipment_id": "MOON-EQ-0007",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0027",
+      "event_name": "Long-duration HFE data collection",
+      "event_date": null,
+      "date_precision": "UNKNOWN",
+      "event_type_as_recorded": "operation",
+      "event_description": "NASA NTRS summarizes HFE operation from July 1971 through January 1977; NASA-RP-1036 separately documents intermittent operation from 1976-04-28 and a commanded OFF on 1977-01-15.",
+      "claim_ids": [
+        "CLM-0051",
+        "CLM-0069"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0007::EVT-0047",
+      "equipment_id": "MOON-EQ-0007",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0047",
+      "event_name": "Heat Flow Experiment commanded OFF",
+      "event_date": "1977-01-15",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "status_change",
+      "event_description": "NASA-RP-1036 records the Apollo 15 HFE commanded OFF. It notes intermittent operation since 1976-04-28 and anomalous data since December 1975.",
+      "claim_ids": [
+        "CLM-0069"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0028",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0028",
+      "event_name": "Magnetometer deployed",
+      "event_date": "1971-07-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "NASA SP-289 records deployment at 18:29 GMT at 26°26′ N, 3°29′ E.",
+      "claim_ids": [
+        "CLM-0055"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0029",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0029",
+      "event_name": "Y-axis sensor head did not flip on command",
+      "event_date": "1971-08-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 records a failure of the Y-axis sensor head to flip, requiring modified data processing for calibration.",
+      "claim_ids": [
+        "CLM-0056"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0030",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0030",
+      "event_name": "Y-axis sensor data loss",
+      "event_date": "1971-11-02",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 records loss of Y-axis sensor data; output continued to be recorded and archived, but all three axes were required for the intended analysis.",
+      "claim_ids": [
+        "CLM-0056"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0031",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0031",
+      "event_name": "Science and engineering data became static and invalid",
+      "event_date": "1973-12-10",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 identifies 1973-12-10 as the date from which Apollo 15 LSM science and engineering data were static and invalid.",
+      "claim_ids": [
+        "CLM-0057"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0032",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0032",
+      "event_name": "Instrument permanently commanded OFF",
+      "event_date": "1974-06-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "status_change",
+      "event_description": "NASA-RP-1036 records a permanent OFF command for the Apollo 15 LSM.",
+      "claim_ids": [
+        "CLM-0057"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0033",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0033",
+      "event_name": "Inadvertent ON command followed by OFF",
+      "event_date": "1975-01-29",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "An inadvertent ground command turned the instrument ON; it returned no science or engineering data and was commanded OFF.",
+      "claim_ids": [
+        "CLM-0058"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0034",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0034",
+      "event_name": "Second inadvertent ON command followed by OFF",
+      "event_date": "1975-12-18",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "A later inadvertent ON command was followed by an OFF command; only a minimal reserve-power change was observed.",
+      "claim_ids": [
+        "CLM-0058"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0008::EVT-0035",
+      "equipment_id": "MOON-EQ-0008",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0035",
+      "event_name": "No change in status at ALSEP termination",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "status_confirmation",
+      "event_description": "NASA-RP-1036 states that the Apollo 15 LSM status did not change when ALSEP operations were terminated.",
+      "claim_ids": [
+        "CLM-0057"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0036",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0036",
+      "event_name": "Solar Wind Spectrometer deployed",
+      "event_date": "1971-07-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "The SWS was deployed near the end of the first Apollo 15 EVA.",
+      "claim_ids": [
+        "CLM-0063"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0037",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0037",
+      "event_name": "Background measurements began",
+      "event_date": "1971-07-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "activation",
+      "event_description": "The SWS was turned on at 19:37:10 GMT with its sensor covers still in place to provide background data.",
+      "claim_ids": [
+        "CLM-0063"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0038",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0038",
+      "event_name": "Sensor covers removed and solar-plasma detection began",
+      "event_date": "1971-08-02",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "operation",
+      "event_description": "At 18:07:32 GMT, approximately one hour after Lunar Module ascent, the sensor covers were removed by command from Earth and detection of solar plasma began.",
+      "claim_ids": [
+        "CLM-0063"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0048",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0048",
+      "event_name": "Intermittent proton-energy modulation drops",
+      "event_date": "1971-11-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 reports intermittent modulation drops in proton energy levels 13 and 14 for the Apollo 12 and Apollo 15 SWS. The thermally induced problem occurred each lunation and was attributed to a circuit used solely for ground-test purposes.",
+      "claim_ids": [
+        "CLM-0073"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0039",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0039",
+      "event_name": "Science and engineering data became static and invalid",
+      "event_date": "1972-06-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 reports that high-voltage arcing in the SWS electronics caused excessive power consumption. Because the additional load could not be tolerated by the Apollo 15 ALSEP system, the instrument was left in STANDBY indefinitely. OPERATE SELECT commands were periodically issued to check for any change in instrument status.",
+      "claim_ids": [
+        "CLM-0064"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0040",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0040",
+      "event_name": "Permanent OFF command",
+      "event_date": "1974-06-14",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "status_change",
+      "event_description": "NASA-RP-1036 records the Apollo 15 SWS permanently commanded OFF on 1974-06-14 after data had been static and invalid since 1972-06-30.",
+      "claim_ids": [
+        "CLM-0064"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0044",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0044",
+      "event_name": "Post-shutdown diagnostic ON check",
+      "event_date": "1974-07-03",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic",
+      "event_description": "NASA-RP-1036 lists a diagnostic ON check during real-time support; no valid scientific or engineering data were received.",
+      "claim_ids": [
+        "CLM-0067"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0045",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0045",
+      "event_name": "Post-shutdown diagnostic ON check",
+      "event_date": "1974-07-29",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic",
+      "event_description": "NASA-RP-1036 lists a diagnostic ON check; no valid scientific or engineering data were received. The reserve-power change was 6.00 W.",
+      "claim_ids": [
+        "CLM-0067"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0046",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0046",
+      "event_name": "Post-shutdown diagnostic ON check",
+      "event_date": "1974-09-03",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "diagnostic",
+      "event_description": "NASA-RP-1036 records both Apollo 12 and Apollo 15 instruments commanded ON; power draw was negligible and no valid scientific or engineering data were returned.",
+      "claim_ids": [
+        "CLM-0067"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0041",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0041",
+      "event_name": "Inadvertent ON command followed by OFF",
+      "event_date": "1975-01-25",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 records a spurious functional ON command on 1975-01-25, causing a 3.9 W reserve-power drain. The instrument was commanded to STANDBY, with no reserve-power change, and then to OFF; reserve power increased by 3.9 W.",
+      "claim_ids": [
+        "CLM-0065"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0042",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0042",
+      "event_name": "Inadvertent standby-power command followed by OFF",
+      "event_date": "1975-09-15",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 records a spurious STANDBY POWER ON command on 1975-09-15, causing a 4 W reserve-power drain attributed to the standby heater turning on. The instrument was commanded OFF, after which reserve power increased by 4 W.",
+      "claim_ids": [
+        "CLM-0065"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0043",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0043",
+      "event_name": "Spurious ON command followed by OFF",
+      "event_date": "1976-01-31",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "anomaly",
+      "event_description": "NASA-RP-1036 records a spurious functional ON command on 1976-01-31. The Guam Tracking Station commanded the experiment OFF; no increase or decrease in reserve power was observed.",
+      "claim_ids": [
+        "CLM-0065"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0009::EVT-0049",
+      "equipment_id": "MOON-EQ-0009",
+      "destination": "Moon",
+      "mission_name": "Apollo 15",
+      "event_id": "EVT-0049",
+      "event_name": "ALSEP program termination — no change in SWS status",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "program_termination_milestone",
+      "event_description": "NASA-RP-1036 records no change in Solar-Wind Spectrometer status when the ALSEP program was terminated. The entry applies to Apollo 12 and Apollo 15; it does not record a new OFF command.",
+      "claim_ids": [
+        "CLM-0074"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0010::EVT-0050",
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "mission_name": "Apollo 16",
+      "event_id": "EVT-0050",
+      "event_name": "Apollo 16 launched",
+      "event_date": "1972-04-16",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Apollo 16 launched from Kennedy Space Center, beginning the mission that carried the ASE as part of the lunar-surface science payload.",
+      "claim_ids": [
+        "CLM-0086"
+      ],
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0010::EVT-0051",
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "mission_name": "Apollo 16",
+      "event_id": "EVT-0051",
+      "event_name": "Apollo 16 lunar landing",
+      "event_date": "1972-04-21",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "The Apollo 16 lunar module landed in the Descartes region. The lunar landing established the site for deployment of the ALSEP science package, including the ASE.",
+      "claim_ids": [
+        "CLM-0086"
+      ],
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0010::EVT-0052",
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "mission_name": "Apollo 16",
+      "event_id": "EVT-0052",
+      "event_name": "Apollo 16 ALSEP array commanded ON",
+      "event_date": "1972-04-21",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "activation",
+      "event_description": "NASA's ALSEP status table records the Apollo 16 array commanded ON at 19:38 GMT. This is an array-level command timestamp; it is not the geophone-array deployment time. The ASE geophone array was deployed during lunar surface operations, but no exact deployment time is assigned in this record.",
+      "claim_ids": [
+        "CLM-0083"
+      ],
+      "source_ids": [
+        "SRC-0026"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0010::EVT-0053",
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "mission_name": "Apollo 16",
+      "event_id": "EVT-0053",
+      "event_name": "Apollo 16 ALSEP operations terminated",
+      "event_date": "1977-09-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "decommissioning",
+      "event_description": "NASA's ALSEP status table records the Apollo 16 array commanded OFF on 1977-09-30. NASA's ALSEP history identifies this as the program-wide decommissioning date. The milestone does not establish the present physical condition of individual ASE components.",
+      "claim_ids": [
+        "CLM-0084"
+      ],
+      "source_ids": [
+        "SRC-0026"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MOON-EQ-0010::EVT-0054",
+      "equipment_id": "MOON-EQ-0010",
+      "destination": "Moon",
+      "mission_name": "Apollo 16",
+      "event_id": "EVT-0054",
+      "event_name": "Apollo 16 returned to Earth",
+      "event_date": "1972-04-27",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "mission_return",
+      "event_description": "The Apollo 16 mission returned to Earth. This closes the crewed mission chronology; it does not mark the end of the surface ASE's automated operation, which continued as part of ALSEP until 1977.",
+      "claim_ids": [
+        "CLM-0086"
+      ],
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0036::EVT-0538",
+      "equipment_id": "MARS-EQ-0036",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0538",
+      "event_name": "Mars 2020 launch",
+      "event_date": "2020-07-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Perseverance, carrying SuperCam, launched aboard a ULA Atlas V 541.",
+      "claim_ids": [
+        "CLM-0572"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0036::EVT-0539",
+      "equipment_id": "MARS-EQ-0036",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0539",
+      "event_name": "Perseverance lands in Jezero Crater",
+      "event_date": "2021-02-18",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "The rover carrying SuperCam landed in Jezero Crater, Mars.",
+      "claim_ids": [
+        "CLM-0573"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0037::EVT-0540",
+      "equipment_id": "MARS-EQ-0037",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0540",
+      "event_name": "Mars 2020 launch",
+      "event_date": "2020-07-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Perseverance, carrying MEDA, launched aboard a ULA Atlas V 541.",
+      "claim_ids": [
+        "CLM-0577"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0037::EVT-0541",
+      "equipment_id": "MARS-EQ-0037",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0541",
+      "event_name": "Perseverance lands in Jezero Crater",
+      "event_date": "2021-02-18",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "The rover carrying MEDA landed in Jezero Crater, Mars.",
+      "claim_ids": [
+        "CLM-0578"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0038::EVT-0542",
+      "equipment_id": "MARS-EQ-0038",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0542",
+      "event_name": "Mars 2020 launch",
+      "event_date": "2020-07-30",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "Perseverance, carrying RIMFAX, launched aboard a ULA Atlas V 541.",
+      "claim_ids": [
+        "CLM-0583"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0038::EVT-0543",
+      "equipment_id": "MARS-EQ-0038",
+      "destination": "Mars",
+      "mission_name": "Mars 2020",
+      "event_id": "EVT-0543",
+      "event_name": "Perseverance lands in Jezero Crater",
+      "event_date": "2021-02-18",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "The rover carrying RIMFAX landed in Jezero Crater, Mars.",
+      "claim_ids": [
+        "CLM-0584"
+      ],
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0544",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0544",
+      "event_name": "InSight launch",
+      "event_date": "2018-05-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "InSight launched from Vandenberg Air Force Base.",
+      "claim_ids": [
+        "CLM-0600"
+      ],
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0545",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0545",
+      "event_name": "InSight lands on Mars",
+      "event_date": "2018-11-26",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "InSight landed in Elysium Planitia.",
+      "claim_ids": [
+        "CLM-0588"
+      ],
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0546",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0546",
+      "event_name": "SEIS deployed on the Martian surface",
+      "event_date": "2018-12-19",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "InSight’s robotic arm placed the SEIS package on the surface beneath its protective shield.",
+      "claim_ids": [
+        "CLM-0589"
+      ],
+      "source_ids": [
+        "SRC-0159"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0547",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0547",
+      "event_name": "First likely marsquake recorded",
+      "event_date": "2019-04-06",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "science milestone",
+      "event_description": "SEIS recorded a seismic event later identified by the mission team as the first likely marsquake.",
+      "claim_ids": [
+        "CLM-0590"
+      ],
+      "source_ids": [
+        "SRC-0160"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0548",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0548",
+      "event_name": "Last communication from InSight",
+      "event_date": "2022-12-15",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "last contact",
+      "event_description": "NASA identifies this as the last time the lander communicated with Earth.",
+      "claim_ids": [
+        "CLM-0591"
+      ],
+      "source_ids": [
+        "SRC-0163"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0039::EVT-0549",
+      "equipment_id": "MARS-EQ-0039",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0549",
+      "event_name": "NASA retires InSight mission",
+      "event_date": "2022-12-21",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "mission end",
+      "event_description": "NASA announced the mission’s retirement after failed communication attempts. This is a mission-level event; it does not establish physical removal of SEIS.",
+      "claim_ids": [
+        "CLM-0601"
+      ],
+      "source_ids": [
+        "SRC-0164"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0550",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0550",
+      "event_name": "InSight launch",
+      "event_date": "2018-05-05",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "launch",
+      "event_description": "InSight launched from Vandenberg Air Force Base.",
+      "claim_ids": [
+        "CLM-0602"
+      ],
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0551",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0551",
+      "event_name": "InSight lands on Mars",
+      "event_date": "2018-11-26",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "landing",
+      "event_description": "InSight landed in Elysium Planitia.",
+      "claim_ids": [
+        "CLM-0603"
+      ],
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0552",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0552",
+      "event_name": "HP³ deployed on the Martian surface",
+      "event_date": "2019-02-12",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "deployment",
+      "event_description": "InSight placed HP³ on the surface about one metre from the SEIS instrument.",
+      "claim_ids": [
+        "CLM-0594"
+      ],
+      "source_ids": [
+        "SRC-0161"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0553",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0553",
+      "event_name": "HP³ mole hammering paused",
+      "event_date": "2019-02-28",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "instrument anomaly",
+      "event_description": "The team commanded the mole to stop hammering after it had not penetrated beyond about 30 cm.",
+      "claim_ids": [
+        "CLM-0604"
+      ],
+      "source_ids": [
+        "SRC-0165"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0554",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0554",
+      "event_name": "HP³ mole effort ends",
+      "event_date": "2021-01-09",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "instrument milestone",
+      "event_description": "After no progress, the team called an end to efforts to drive the mole deeper.",
+      "claim_ids": [
+        "CLM-0595"
+      ],
+      "source_ids": [
+        "SRC-0162"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0555",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0555",
+      "event_name": "Last communication from InSight",
+      "event_date": "2022-12-15",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "last contact",
+      "event_description": "NASA identifies this as the last time the lander communicated with Earth.",
+      "claim_ids": [
+        "CLM-0605"
+      ],
+      "source_ids": [
+        "SRC-0163"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    },
+    {
+      "record_key": "MARS-EQ-0040::EVT-0556",
+      "equipment_id": "MARS-EQ-0040",
+      "destination": "Mars",
+      "mission_name": "InSight",
+      "event_id": "EVT-0556",
+      "event_name": "NASA retires InSight mission",
+      "event_date": "2022-12-21",
+      "date_precision": "DAY",
+      "event_type_as_recorded": "mission end",
+      "event_description": "NASA announced the mission’s retirement after failed communication attempts. This is a mission-level event, not proof of physical equipment abandonment.",
+      "claim_ids": [
+        "CLM-0606"
+      ],
+      "source_ids": [
+        "SRC-0164"
+      ],
+      "event_owner_type": "UNCLASSIFIED",
+      "ownership_note": "Mission versus equipment ownership requires historical review; no automatic classification applied."
+    }
+  ]
+}

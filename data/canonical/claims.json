@@ -1,0 +1,1880 @@
+{
+  "count": 131,
+  "records": [
+    {
+      "record_key": "MOON-EQ-0001::CLM-0001",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0001",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 11 lunar television camera was a black-and-white camera manufactured by Westinghouse Electric Corporation.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit, Onboard Television, p. 77.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0002",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0002",
+      "claim_type": "Technical",
+      "claim_text": "The camera mass was 7.25 lb (approximately 3.29 kg); its body measured 10.6 × 6.5 × 3.4 in (approximately 0.269 × 0.165 × 0.086 m).",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit, Onboard Television, p. 77. SI conversions are arithmetic conversions of the source values.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0003",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0003",
+      "claim_type": "Technical",
+      "claim_text": "The camera drew 6.5 W from a 24–32 V DC supply and transmitted at 10 frames per second with 320 lines per frame.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit, Onboard Television, p. 77.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0004",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0004",
+      "claim_type": "Historical",
+      "claim_text": "The camera was stowed in the Lunar Module descent-stage MESA and deployed as the MESA was lowered. NASA's Apollo 11 Press Kit surface-layout diagram places the tripod approximately 30 ft from the Lunar Module, while NASA's Apollo 11 Mission Report describes the tripod as approximately 40 ft from the LM; the two NASA sources therefore give differing approximate distances.",
+      "details_section": "its_story",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0002"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit, EVA surface-layout diagram, printed p. 48 (PDF p. 50), labels the TV camera tripod position '(30 FT. FROM LM)'; Apollo 11 Mission Report, 'Report On The Lunar Surface', states the tripod was some 40 ft from the LM. The discrepancy is preserved without an inferred explanation.",
+      "verification_notes": "NASA sources disagree: the Press Kit diagram gives approximately 30 ft; the Mission Report prose gives approximately 40 ft. Neither measurement is silently preferred."
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0005",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0005",
+      "claim_type": "Historical",
+      "claim_text": "NASA archival captions identify the lunar surface television camera as left of the Lunar Module in Apollo 11 surface photographs.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0003"
+      ],
+      "relevant_source_passage_or_location": "NSSDC Apollo 11 30th Anniversary page, caption accompanying NASA photo AS11-40-5931.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0006",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0006",
+      "claim_type": "Status",
+      "claim_text": "The camera was left on the lunar surface after its use; NASA evidence reviewed does not establish its present physical condition or continued functionality.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0003"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit says it was left unattended for the remainder of the EVA; NSSDC archive identifies it as left beside the LM in the surface scene.",
+      "verification_notes": "SRC-0014 is not cited for this status claim: its “left behind” statement refers to the distinct Hasselblad 500EL still-photography Data Camera, not the lunar-surface television camera."
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0039",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0039",
+      "claim_type": "Mission event",
+      "claim_text": "Apollo 11 launched on 1969-07-16 carrying the black-and-white lunar surface television camera stowed in the Lunar Module descent stage.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0002"
+      ],
+      "relevant_source_passage_or_location": "Apollo 11 Press Kit, 'Apollo 11 Onboard Television' section: camera stowed in the LM descent stage; Apollo 11 Mission Report mission chronology for launch date.",
+      "verification_notes": "Added only to make the existing launch timeline event traceable to a mission-launch claim; the six independently verified original claims remain unchanged."
+    },
+    {
+      "record_key": "MOON-EQ-0001::CLM-0041",
+      "equipment_id": "MOON-EQ-0001",
+      "claim_id": "CLM-0041",
+      "claim_type": "Historical",
+      "claim_text": "NASA’s Apollo still-photography article distinguishes the black-and-white lunar-surface television camera from the Hasselblad 500EL Data Camera; the article’s statement that a camera and lens were left at Tranquility Base refers to the Hasselblad still camera, not the Westinghouse television camera.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0014"
+      ],
+      "relevant_source_passage_or_location": "NASA article, Apollo 11 section: paragraph identifying the black-and-white TV camera outside the Lunar Module; subsequent paragraphs identify the lunar-surface Hasselblad 500EL Data Camera; the “camera and lens were left behind” sentence appears in the Data Camera discussion.",
+      "verification_notes": "This source is included because it is the NASA article specified in the third-audit correction request. It must not be used as evidence that the separate Westinghouse lunar-surface television camera was left behind. The existing TV-camera status evidence remains SRC-0001 and SRC-0003. The precise effective abandonment date remains null."
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0007",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0007",
+      "claim_type": "Historical",
+      "claim_text": "The Apollo 12 ALSEP Central Station was the focal point for control of the surface experiments and for collection, processing, and transmission of scientific and engineering data to the Manned Space Flight Network.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Mission Report, Appendix A, section A.3.1, p. A-5.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0008",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0008",
+      "claim_type": "Technical",
+      "claim_text": "The central station data system included an antenna, diplexer, transmitter, command receiver and decoder, timer, data processor, and power distribution unit.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Mission Report, Appendix A, section A.3.1.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0009",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0009",
+      "claim_type": "Technical",
+      "claim_text": "The ALSEP central station used a modified axial-helical antenna, 58 cm long and 3.8 cm in diameter. NASA-RP-1036 gives a general Apollo ALSEP transmitter range of 2275–2280 MHz and identifies 2278.5 MHz as the Apollo 12 downlink frequency.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, pp. 2-14 to 2-15: antenna type and dimensions, general transmitter range, and mission-specific downlink-frequency table; NASA ALSEP Arrays and Status, Apollo 12 column.",
+      "verification_notes": "Removed the former copper-conductor/fiberglass-epoxy construction statement because direct NASA support was not established. General frequency range and Apollo 12-specific frequency are now distinguished."
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0010",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0010",
+      "claim_type": "Mission event",
+      "claim_text": "The Apollo 12 ALSEP central station was first commanded on 1969-11-19 at 14:21 UT.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA ALSEP Arrays and Status table, Apollo 12 column: Date/Time Commanded On.",
+      "verification_notes": "Corrected from the unrelated Apollo 14 history article to the NASA ALSEP status table."
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0011",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0011",
+      "claim_type": "Status",
+      "claim_text": "NASA terminated ALSEP support operations and lunar data receipt on 1977-09-30. The Apollo 12 station is listed as commanded off on that date.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036 Foreword: data receipt terminated September 30, 1977; NASA ALSEP Arrays and Status table, Apollo 12 column: Date Commanded Off.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0012",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0012",
+      "claim_type": "Location",
+      "claim_text": "The Apollo 12 ALSEP array deployment site is listed at approximately 3.00942° S, 23.42458° W in the NASA ALSEP status reference.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA ALSEP Arrays and Status table, Apollo 12 column: ALSEP array deploy-site latitude and longitude.",
+      "verification_notes": "This is the published ALSEP array deployment-site coordinate, not a separately surveyed component coordinate."
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0031",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0031",
+      "claim_type": "Technical",
+      "claim_text": "NASA-RP-1036 lists the ALSEP central station mass as 25 kg in the central-station system-characteristics table. The report presents this as the central-station specification and does not list a separate Apollo 12 mass variant.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, 'Central Station (1)', p. 2-1: system-characteristics table, Mass = 25 kg.",
+      "verification_notes": "The mass is included as the report's standard central-station specification. No separate Apollo 12 variant mass is identified in the report."
+    },
+    {
+      "record_key": "MOON-EQ-0002::CLM-0035",
+      "equipment_id": "MOON-EQ-0002",
+      "claim_id": "CLM-0035",
+      "claim_type": "Mission event",
+      "claim_text": "Apollo 12 launched on 1969-11-14 at 16:22 GMT carrying the ALSEP package that included the central station.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Mission Report, Summary, p. 1-1: range zero 16:22:00 GMT on November 14, 1969; report identifies the emplaced experiments.",
+      "verification_notes": "Separates mission launch context from the central station's later lunar deployment and activation."
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0013",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0013",
+      "claim_type": "Technical",
+      "claim_text": "SNAP-27 was the radioisotope thermoelectric generator used to supply electrical power to the Apollo 12 ALSEP.",
+      "details_section": "overview",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0004",
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, Electrical Power Subsystem, identifies SNAP-27 as the ALSEP RTG; Apollo 12 Mission Report, ALSEP deployment/power subsystem description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0014",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0014",
+      "claim_type": "Technical",
+      "claim_text": "The SNAP-27 generator assembly produced approximately 70 W of direct-current electrical power at a nominal 16 V.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, Electrical Power Subsystem, p. 2-16: generator assembly output and nominal voltage.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0015",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0015",
+      "claim_type": "Technical",
+      "claim_text": "SNAP-27 generated electrical power from heat produced by radioactive decay of a plutonium-238 fuel element.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, pp. 2-16 to 2-17: plutonium-238 decay heat and lead-telluride thermoelectric conversion.",
+      "verification_notes": "Corrected the source relationship to the NASA ALSEP Termination Report."
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0016",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0016",
+      "claim_type": "Mission event",
+      "claim_text": "The Apollo 12 SNAP-27 was deployed with the ALSEP package on the lunar surface on 1969-11-19.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0004",
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Mission Report appendix on ALSEP deployment; NASA Apollo 12 history article identifies the RTG as part of the deployed ALSEP.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0017",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0017",
+      "claim_type": "Historical",
+      "claim_text": "NASA-RP-1036 specifies a one-year design life for the Apollo 12 SNAP-27/ALSEP mission class and for Apollo 14, 15, and 16; it specifies two years for Apollo 17. NASA's general SNAP-27 overview summarizes the design lifetime as two years, so the mission-specific NASA-RP-1036 and ALSEP status table values are used for the Apollo 12 record while the broader overview discrepancy is retained.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0012",
+        "SRC-0006"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, p. 2-16, design characteristics item 2; NASA ALSEP Arrays and Status table, Design Life row (Apollo 12 = 365 days; Apollo 17 = 730 days); NASA Science SNAP-27 RTG subsection.",
+      "verification_notes": "Source discrepancy preserved: the general NASA Science overview says two years, while the mission-specific NASA-RP-1036 and NASA ALSEP status table assign Apollo 12 a one-year design life and Apollo 17 two years. The Apollo 12 record therefore uses one year."
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0018",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0018",
+      "claim_type": "Status",
+      "claim_text": "NASA terminated ALSEP data receipt and support operations on 1977-09-30. NASA's general SNAP-27 overview reports that deployed units operated for five to eight years until station shutdown; the reviewed sources do not establish a separate Apollo 12 generator shutdown command or its present electrical output. Termination of data transmission does not establish that plutonium-238 decay heat ceased.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0006"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036 Foreword: data receipt terminated 1977-09-30; NASA Science SNAP-27 RTG subsection: five-to-eight-year deployed-unit operation until ALSEP shutdown; NASA-RP-1036, p. 2-16: heat from plutonium-238 decay.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0032",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0032",
+      "claim_type": "Technical",
+      "claim_text": "The SNAP-27 generator assembly, with the fuel capsule in place, weighed 17 kg.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, Electrical Power Subsystem, p. 2-16: generator assembly mass with fuel capsule in place.",
+      "verification_notes": "Mass includes the fuel capsule; it is not the mass of the generator assembly without the capsule."
+    },
+    {
+      "record_key": "MOON-EQ-0003::CLM-0036",
+      "equipment_id": "MOON-EQ-0003",
+      "claim_id": "CLM-0036",
+      "claim_type": "Mission event",
+      "claim_text": "Apollo 12 launched on 1969-11-14 at 16:22 GMT carrying the ALSEP package that included the SNAP-27 generator.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0004",
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Mission Report, Summary, p. 1-1: launch time and emplaced experiments; NASA-RP-1036, Section 2: SNAP-27 identified as the ALSEP radioisotope generator.",
+      "verification_notes": "Separates mission launch context from SNAP-27 lunar deployment."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0019",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0019",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 12 Lunar Surface Magnetometer was part of the ALSEP and was designed to measure the magnetic field at the lunar surface to investigate lunar electromagnetic properties and interior electrical properties.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Preliminary Science Report, Section 4, Purpose of the Experiment.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0020",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0020",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 12 Lunar Surface Magnetometer used three mutually orthogonal sensors at the ends of 100 cm booms; NASA-SP-235 states that the sensors were spread approximately 150 cm apart and were approximately 70 cm above the lunar surface.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Lunar Surface Magnetometer Experiment, mechanical-subsystem description: three mutually orthogonal fluxgate sensors at the ends of three 100 cm booms; sensors spread approximately 150 cm apart and approximately 70 cm above the lunar surface.",
+      "verification_notes": "All stated geometry is retained as directly supported by NASA-SP-235. The second audit's concern about the original geometry was formally retracted."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0021",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0021",
+      "claim_type": "Scientific discovery",
+      "claim_text": "NASA-SP-235 reports a preliminary average magnetic-field magnitude of 36 ± 5 gamma (equivalent to nT). The later NASA-RP-1036 science summary reports the permanent local field magnitude as 38 ± 3 nT. Both published values are retained as results from different report stages rather than treated as interchangeable.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0005",
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Section 4, pp. 66–67: preliminary average field magnitude 36 ± 5 gamma; NASA-RP-1036, science summary on permanent magnetic properties: (38 ± 3) × 10^-9 T.",
+      "verification_notes": "The values are preserved with their report context: the 1970 preliminary analysis and the 1979 termination-report science summary. No value is silently substituted for the other."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0022",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0022",
+      "claim_type": "Scientific contribution",
+      "claim_text": "The magnetometer data helped investigate the Moon’s response to solar-wind electromagnetic excitation and supported analysis of lunar interior electrical conductivity.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005",
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "Apollo 12 Preliminary Science Report, Section 4; ALSEP Termination Report, Apollo 12 and 15 magnetometers summary.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0023",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0023",
+      "claim_type": "Mission event",
+      "claim_text": "NASA-SP-235 Table 4-IV records the Apollo 12 Lunar Surface Magnetometer as deployed by Conrad and Bean at 14:01 GMT on 1969-11-19 and turned ON at 14:39 GMT that day.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Table 4-IV, records deployment at 14:01 GMT and activation at 14:39 GMT on 1969-11-19. The narrative text in the same report separately says 14:00 G.m.t. for deployment; both source passages are retained as a one-minute discrepancy.",
+      "verification_notes": "Table 4-IV is used for the timeline value (14:01 GMT). The narrative passage states 14:00 G.m.t. The report does not explain the one-minute difference; no reconciliation is inferred."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0024",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0024",
+      "claim_type": "Status",
+      "claim_text": "The Apollo 12 Lunar Surface Magnetometer was permanently commanded off on 1974-06-14 after its science and engineering data had been static and invalid since 1972-06-14.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, p. 4-11: Apollo 12 LSM permanently commanded OFF on June 14, 1974; NASA ALSEP Arrays and Status table, Lunar Surface Magnetometer row: Apollo 12 commanded off 14 Jun 1974.",
+      "verification_notes": "Removed unrelated Apollo 14 history reference; status is supported by the Apollo 12 magnetometer entry in NASA-RP-1036."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0033",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0033",
+      "claim_type": "Technical",
+      "claim_text": "NASA-SP-235 lists the Lunar Surface Magnetometer mass as 8.9 kg, dimensions as 25 × 28 × 63 cm, average daytime power as 3.5 W, and average nighttime power as 7.5 W.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Section 4, Table 4-1, p. 59: power, weight, and size rows.",
+      "verification_notes": "Dimensions converted to metres in the Details field; source values are preserved in this claim."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0034",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0034",
+      "claim_type": "Location",
+      "claim_text": "NASA-SP-235 reports the Apollo 12 Lunar Surface Magnetometer location as 2.970° S latitude and 23.350° W longitude; the three decimal places reproduce the displayed source values and do not establish absolute positional accuracy.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Section 4, p. 65: the report prints the instrument location as “2.970° S, 23.350° W” (also expressed in the source table as 23.350 W longitude and 2.970 S latitude). The displayed three decimal places are transcribed as printed; NASA-SP-235 does not state absolute positional accuracy, survey accuracy, or a verified uncertainty radius.",
+      "verification_notes": "Coordinates are stored as -2.970 latitude and -23.350 longitude to preserve the three decimal places printed in NASA-SP-235. This is source-display precision only; it is not a statement of absolute positional accuracy or a 0.001-degree accuracy."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0037",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0037",
+      "claim_type": "Mission event",
+      "claim_text": "Apollo 12 launched on 1969-11-14 at 16:22 GMT carrying the Lunar Surface Magnetometer as part of the ALSEP equipment.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "relevant_source_passage_or_location": "NASA-SP-235, Section 4, Table 4-IV, p. 64: Apollo 12 liftoff at 16:22 GMT on November 14, 1969; Section 4 identifies the magnetometer as an ALSEP instrument.",
+      "verification_notes": "Separates mission launch from instrument deployment and activation on November 19."
+    },
+    {
+      "record_key": "MOON-EQ-0004::CLM-0040",
+      "equipment_id": "MOON-EQ-0004",
+      "claim_id": "CLM-0040",
+      "claim_type": "Operational history",
+      "claim_text": "NASA-RP-1036 records Apollo 12 Lunar Surface Magnetometer ON commands during real-time support on 1974-07-02, 1974-07-03 and 1974-08-05. The report states that these checks did not return valid scientific or engineering data; a further 1974-09-03 ON command drew negligible power and also returned no valid data.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Lunar Surface Magnetometer status table, pp. 4-10 to 4-11: Apollo 12 instrument ON commands on July 2, July 3 and August 5, 1974; no valid science or engineering downlink; September 3, 1974 ON command drew negligible power and returned no valid data.",
+      "verification_notes": "The report separately records a permanent OFF command on 1974-06-14. Later diagnostic ON commands are reported as distinct historical events and are not interpreted as restoration of useful operation."
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0025",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0025",
+      "claim_type": "Historical",
+      "claim_text": "The Apollo 14 Active Seismic Experiment was deployed as part of the ALSEP during the Apollo 14 lunar-surface mission.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0011"
+      ],
+      "relevant_source_passage_or_location": "NASA historical image caption identifies the ASE in use during the first Apollo 14 EVA; NASA mission-history article documents the lunar landing and ALSEP deployment.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0026",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0026",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 14 Active Seismic Experiment generated and recorded seismic signals to investigate the lunar near-surface.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "relevant_source_passage_or_location": "NASA Technical Reports Server archival record, Document ID 19720039829, accessible abstract. The underlying work is a scientific journal reprint published in Science; the NTRS record identifies the bibliographic metadata and abstract, not a NASA-authored mission report. No full-text download is available through the record.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0027",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0027",
+      "claim_type": "Scientific discovery",
+      "claim_text": "Apollo 14 active-seismic data indicated an approximately 8.5 m thick regolith layer at the Fra Mauro site; the archived research abstract reports a compressional-wave velocity of 104 m/s for this layer.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0010"
+      ],
+      "relevant_source_passage_or_location": "NASA Technical Reports Server archival record, Document ID 19720039829, accessible abstract. The underlying work is a scientific journal reprint published in Science; the NTRS record identifies the bibliographic metadata and abstract, not a NASA-authored mission report. No full-text download is available through the record.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0028",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0028",
+      "claim_type": "Scientific contribution",
+      "claim_text": "The experiment contributed seismic-refraction evidence about the thickness and physical properties of near-surface lunar material at Fra Mauro.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0010"
+      ],
+      "relevant_source_passage_or_location": "NASA Technical Reports Server archival record, Document ID 19720039829, accessible abstract. The underlying work is a scientific journal reprint published in Science; the NTRS record identifies the bibliographic metadata and abstract, not a NASA-authored mission report. No full-text download is available through the record.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0029",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0029",
+      "claim_type": "Mission event",
+      "claim_text": "The Apollo 14 ALSEP, including the Active Seismic Experiment, was deployed during the first lunar-surface EVA on 1971-02-05.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0011"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 14 mission-history page and NASA history article describing the ASE in the first EVA.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0030",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0030",
+      "claim_type": "Status",
+      "claim_text": "NASA’s ALSEP status reference reports that the Apollo 14 station failed during January 1976; the reviewed sources do not establish an independent final status or last-contact date for the ASE instrument alone.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "relevant_source_passage_or_location": "NASA ALSEP Arrays and Status table, Apollo 14 column: Date Commanded Off / Status = Failed Jan 1976.",
+      "verification_notes": "The evidence establishes a station-level failure only; no independent ASE component-level failure or last-contact time is inferred."
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0038",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0038",
+      "claim_type": "Mission event",
+      "claim_text": "Apollo 14 launched on 1971-01-31 carrying the Apollo Lunar Surface Experiments Package, which included the Active Seismic Experiment.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0011",
+        "SRC-0009"
+      ],
+      "relevant_source_passage_or_location": "NASA article '50 Years Ago: Apollo 14 Lands at Fra Mauro': launch on January 31, 1971; NASA image article identifies the ASE as an Apollo 14 ALSEP experiment.",
+      "verification_notes": "Records mission launch context only; no technical operation details are added."
+    },
+    {
+      "record_key": "MOON-EQ-0005::CLM-0094",
+      "equipment_id": "MOON-EQ-0005",
+      "claim_id": "CLM-0094",
+      "claim_type": "Status",
+      "claim_text": "NASA-RP-1036 records loss of Apollo 14 central-station command capability on 1975-03-05, after which the Apollo 14 Active Seismic Experiment could no longer be commanded; NASA recorded no change in ASE status at ALSEP termination on 1977-09-30. This supports INACTIVE status effective 1975-03-05. It does not establish a last-contact date or physical condition.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Active Seismic Experiment, printed pp. 4-7 to 4-8: status chronology documenting loss of Apollo 14 central-station command capability on 1975-03-05 and unchanged ASE status at ALSEP termination on 1977-09-30. Nonessential operational details are omitted.",
+      "verification_notes": "Supports INACTIVE status effective 1975-03-05. Does not establish last contact or physical condition. The January 1976 station failure remains a separate station-level event."
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0068",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0068",
+      "claim_type": "Technical",
+      "claim_text": "CPLEE measured low-energy electron and ion fluxes and their energy spectra in two viewing directions to investigate solar and magnetotail plasma at the lunar surface.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0015",
+        "SRC-0017"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-272, Section 10, pp. 193–196; NASA PDS instrument context description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0070",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0070",
+      "claim_type": "Technical",
+      "claim_text": "NASA sources describe CPLEE energy coverage in different contexts: NASA SP-272 states a 50–50,000 eV scientific objective and separately notes electron-detection capability down to 40 eV; NASA-RP-1036 lists performance energy of 40–80,000 eV; and the NASA PDS instrument-context record describes measurements from 40 eV to 20 keV. These source-specific statements are retained separately rather than treated as one interchangeable specification.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0015",
+        "SRC-0016",
+        "SRC-0017"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-272, Section 10, printed pp. 193–196 (objective range at printed p. 193; capability to detect electrons down to 40 eV at printed p. 194); NASA-RP-1036, Section 2, CPLEE system-characteristics/performance data, printed p. 2-7; NASA PDS CPLEE instrument-context description.",
+      "verification_notes": "The endpoints are not normalized into a single universal range. SP-272’s 50–50,000 eV value is expressly its stated scientific objective; its 40 eV statement is a lower electron-detection capability. RP-1036 labels 40–80,000 eV as performance data. PDS describes 40 eV–20 keV. Preserve these distinctions in public-facing text."
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0042",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0042",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 14 CPLEE specifications differ by source: NASA SP-272 reports a mass of approximately 2.7 kg, normal power dissipation of approximately 3.0 W, and approximately 6.0 W with the lunar-night survival heater operating; NASA-RP-1036 separately lists a mass of 2.5 kg and total power of 6.5 W. The source-specific values are retained without treating either report as a universal specification.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0015",
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-272, Section 10, printed p. 195 (mass and normal/heater power); NASA-RP-1036, Section 2, CPLEE system-characteristics table, printed p. 2-7 (mass and total power).",
+      "verification_notes": "Documented source discrepancy: SP-272: 2.7 kg; 3.0 W normal / about 6.0 W with survival heater. RP-1036: 2.5 kg; 6.5 W total. No single mass_kg value is asserted because the reports differ."
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0043",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0043",
+      "claim_type": "Scientific discovery",
+      "claim_text": "CPLEE observations indicated a positive lunar-surface potential of approximately 200 V under low-density plasma conditions and provided observations of photoelectrons produced by sunlight striking the lunar surface.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 6, CPLEE scientific results, printed pp. 6-12 onward.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0044",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0044",
+      "claim_type": "Mission event",
+      "claim_text": "CPLEE was deployed at approximately 18:00 GMT on 1971-02-05 northeast of the Apollo 14 ALSEP central station.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-272, printed p. 197 and photographic summary figure 1-17.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0045",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0045",
+      "claim_type": "Mission event",
+      "claim_text": "The instrument was first commanded ON for a five-minute functional test at 19:00 GMT on 1971-02-05; after Lunar Module ascent it was commanded ON at 19:10 GMT on 1971-02-06 and its dust cover was removed at 19:30 GMT.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-272, printed pp. 197–198.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0006::CLM-0046",
+      "equipment_id": "MOON-EQ-0006",
+      "claim_id": "CLM-0046",
+      "claim_type": "Status",
+      "claim_text": "At the end of ALSEP termination testing on 1977-09-30, the Apollo 14 CPLEE was configured to STANDBY.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, CPLEE operational history, printed p. 4-21.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0047",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0047",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 15 Heat Flow Experiment was designed to determine heat loss from the lunar interior using surface and subsurface temperature and thermal-property measurements.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018",
+        "SRC-0019"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 11, pp. 11-1 onward; NASA PDS HFE context description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0048",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0048",
+      "claim_type": "Technical",
+      "claim_text": "NASA SP-289 reports borestem penetration depths of 1.62 m at Probe 1 and approximately 1.60 m at Probe 2. Figure 11-3 shows approximately 1.40 m insertion of Probe 1; Probe 2 insertion was obstructed near 1.0 m. The later NASA NTRS restoration abstract reports approximate probe penetration depths of 1.4 m and 1.0 m. These probe insertion depths are distinct from borestem penetration depths. NASA SP-289 reports approximately 10 m between probe locations, while the later NTRS abstract reports roughly 8.5 m; both source-specific separations are retained. Although the Probe 2 upper section did not provide valid ring- and gradient-bridge measurements during most of the lunation cycle, its unaffected lower sensors provided useful subsurface temperature data, including a temperature increase with depth comparable to Probe 1.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018",
+        "SRC-0020"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 11, printed pp. 11-3 to 11-8: Table 11-I and Figure 11-3 for bridge/thermocouple systems and probe geometry; text on p. 11-3 for 1.62 m and approximately 1.60 m borestem penetration and Probe 2 obstruction near 1 m; pp. 11-6 to 11-8 for Probe 2 lower-sensor temperature observations. NASA NTRS restoration abstract for approximately 8.5 m probe separation and approximately 1.4 m / 1.0 m probe penetration.",
+      "verification_notes": "Borestem penetration and probe insertion are different measurements and are represented separately. Probe 2 had an obstructed insertion and invalid upper-section bridge readings for much of the lunation cycle, but NASA SP-289 reports useful lower-sensor subsurface temperature observations. The two approximate separation values remain source-specific."
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0049",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0049",
+      "claim_type": "Technical",
+      "claim_text": "NASA-CR-151619 states that the Apollo lunar heat-flow experiment probes each had twelve thermometers. NASA-RP-1317 lists the Apollo 15 Heat Flow Experiment total mass as 9.9 kg and the electronics-box mass as 4.6 kg. NASA-RP-1036 lists 9.0 W total power and the probe/electronics-box dimensions retained in this record. NASA SP-289 documents the gradient bridges, ring bridges, cable thermocouples and thermocouple reference bridge.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016",
+        "SRC-0023",
+        "SRC-0018",
+        "SRC-0030"
+      ],
+      "relevant_source_passage_or_location": "NASA-CR-151619, NASA NTRS abstract: each experiment probe had twelve thermometers. NASA-RP-1317, Heat Flow Experiment entry, printed p. 49: 9.9 kg total and 4.6 kg electronics box. NASA-RP-1036, Section 2, system characteristics, printed pp. 2-4 to 2-5: 9.0 W total power and dimensions. NASA SP-289, Section 11, printed pp. 11-3 to 11-4, Table 11-I: gradient bridges, ring bridges, cable thermocouples and thermocouple reference bridge.",
+      "verification_notes": "The exact count of twelve thermometers per probe is supported by the NASA NTRS abstract for NASA-CR-151619. This statement is limited to the count per probe; no arrangement, individual thermometer specifications or performance characteristics are asserted. The other claim elements retain their existing source-specific support."
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0050",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0050",
+      "claim_type": "Scientific discovery",
+      "claim_text": "NASA SP-289 reports a preliminary Apollo 15 Hadley-Apennine heat-flow result of 3.3 × 10⁻⁶ W/cm² (equivalent to 33 mW/m², ±15 percent). The later NASA-RP-1036 results table reports 21 mW/m² for Hadley Rille. These are retained as source-specific results from different report/analysis stages, not merged into a single value.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0016",
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 11, printed p. 11-1 (preliminary 3.3 × 10⁻⁶ W/cm², ±15 percent); NASA-RP-1036, Section 6, printed p. 6-10, table of significant new observations (Hadley Rille 21 mW/m²).",
+      "verification_notes": "The SP-289 preliminary value converts to 33 mW/m². The later RP-1036 value is 21 mW/m²; report stage/context is retained."
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0051",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0051",
+      "claim_type": "Status",
+      "claim_text": "NASA NTRS describes Apollo 15 HFE operation from July 1971 through January 1977. NASA-RP-1036 summarizes approximately 4.5 years of temperature records and separately documents the HFE commanded OFF on 1977-01-15.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0016",
+        "SRC-0020"
+      ],
+      "relevant_source_passage_or_location": "NASA NTRS abstract for 2017 HFE data restoration; NASA-RP-1036, Section 4, Heat Flow Experiment operational history, printed p. 4-19.",
+      "verification_notes": "The NTRS abstract gives a month-level operation interval; RP-1036 supplies the exact OFF-command date."
+    },
+    {
+      "record_key": "MOON-EQ-0007::CLM-0069",
+      "equipment_id": "MOON-EQ-0007",
+      "claim_id": "CLM-0069",
+      "claim_type": "Status / mission event",
+      "claim_text": "NASA-RP-1036 records that the Apollo 15 Heat Flow Experiment was commanded OFF on 1977-01-15. The report notes that it had operated intermittently since 1976-04-28 and that data had been anomalous since December 1975.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Heat Flow Experiment operational history, printed p. 4-19, event 4.",
+      "verification_notes": "The OFF command is distinct from the earlier intermittent operation and data anomalies."
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0052",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0052",
+      "claim_type": "Historical",
+      "claim_text": "The Apollo 15 Lunar Surface Magnetometer was one station in a network designed to study remanent lunar magnetic fields and the Moon’s response to solar and terrestrial magnetic fields.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 9, introduction, printed pp. 9-1 to 9-2.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0053",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0053",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 15 LSM used three orthogonal fluxgate sensors at the ends of 100 cm booms; mass was 8.9 kg, dimensions were 25 × 28 × 63 cm, average daytime power was 3.5 W and average nighttime power was 9.4 W.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 9, Table 9-1 and instrument description, printed pp. 9-3 to 9-5.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0054",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0054",
+      "claim_type": "Scientific discovery",
+      "claim_text": "NASA SP-289 reports a remanent magnetic field of 6 ± 4 gamma at the Apollo 15 site and notes that remanent field strengths vary considerably among the Apollo 12, 14 and 15 sites.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 9, introduction, printed p. 9-1.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0055",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0055",
+      "claim_type": "Location",
+      "claim_text": "The Apollo 15 LSM was deployed at longitude 3°29′ E and latitude 26°26′ N at 18:29 GMT on 1971-07-31.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 9, experimental technique, printed p. 9-3.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0056",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0056",
+      "claim_type": "Status",
+      "claim_text": "NASA-RP-1036 records an Apollo 15 Y-axis sensor-head flip failure on 1971-08-30 and Y-axis data loss on 1971-11-02.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Lunar Surface Magnetometer operational history, printed p. 4-10.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0057",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0057",
+      "claim_type": "Status",
+      "claim_text": "Apollo 15 LSM science and engineering data were static and invalid from 1973-12-10; the instrument was permanently commanded OFF on 1974-06-14, with no change in status at ALSEP termination.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Lunar Surface Magnetometer operational history, printed pp. 4-10 to 4-12.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0008::CLM-0058",
+      "equipment_id": "MOON-EQ-0008",
+      "claim_id": "CLM-0058",
+      "claim_type": "Mission event",
+      "claim_text": "Inadvertent ON commands occurred on 1975-01-29 and 1975-12-18; each was followed by an OFF command, and no valid science data were reported.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Lunar Surface Magnetometer operational history, printed p. 4-11.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0060",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0060",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 15 SWS used seven modulated Faraday cups to measure the direction and energy of electrons and positive ions reaching the lunar surface.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018",
+        "SRC-0021"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 10, instrument description, printed pp. 10-1 to 10-3; NASA PDS SWS context record.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0061",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0061",
+      "claim_type": "Technical",
+      "claim_text": "NASA-RP-1036 lists SWS mass as 5.7 kg, deployed dimensions as 30.5 × 28.2 × 34.5 cm, and total power as 12.5 W.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 2, Solar Wind Experiment system characteristics, printed p. 2-6.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0062",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0062",
+      "claim_type": "Technical",
+      "claim_text": "Energy ranges are preserved separately by source and scope. NASA SP-289 Section 10 reports Apollo 15 SWS high-range positive ions as 50–10,400 eV and electrons as 10–1,480 eV, and states that each low-range energy level is reduced by a factor of 1.68. NASA PDS Apollo 15 SWS instrument context version 1.2 reports positive-ion energies of 30–10,400 eV and electron energies of 6–1,480 eV. NASA-RP-1036 Section 2 separately lists proton performance of 18–9,780 eV and electron performance of 6–1,330 eV for the Solar Wind Experiment, but does not explicitly identify those values as Apollo 15-specific; their mission attribution is therefore unspecified.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "CORROBORATED",
+      "source_ids": [
+        "SRC-0018",
+        "SRC-0016",
+        "SRC-0021"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 10, printed p. 10-2 (Apollo 15 high-range intervals and low-range factor 1.68); NASA PDS Apollo 15 SWS instrument context version 1.2; NASA-RP-1036, Section 2, Solar Wind Experiment performance data, printed p. 2-6 (mission attribution not explicitly specified).",
+      "verification_notes": "The SP-289 and PDS values are explicitly tied to Apollo 15. The two NASA-RP-1036 Section 2 performance values are retained as source-reported specifications but are not represented as Apollo 15-specific because that section does not state a mission attribution."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0063",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0063",
+      "claim_type": "Mission event",
+      "claim_text": "The SWS was deployed on 1971-07-31, turned on for background data at 19:37:10 GMT, and had its sensor covers removed at 18:07:32 GMT on 1971-08-02 after Lunar Module ascent.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 10, instrument deployment, printed pp. 10-2 to 10-4.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0064",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0064",
+      "claim_type": "Status",
+      "claim_text": "NASA-RP-1036 records that high-voltage arcing caused excessive power consumption and that the Apollo 15 SWS was left in STANDBY indefinitely from 1972-06-30, with periodic OPERATE SELECT commands used to check its status. Its science and engineering data remained static and invalid, and the instrument was permanently commanded OFF on 1974-06-14. Later diagnostic ON checks are separately documented and did not restore valid scientific or engineering data.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Solar-Wind Spectrometer operational history, printed p. 4-13 (1972-06-30 high-voltage arcing/STANDBY event and 1974-06-14 permanent OFF command); printed p. 4-14 (later diagnostic ON checks).",
+      "verification_notes": "The permanent OFF command is dated 1974-06-14. Subsequent ON commands were diagnostic checks and did not restore valid science or engineering data."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0065",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0065",
+      "claim_type": "Mission event",
+      "claim_text": "NASA-RP-1036 records three later spurious SWS command events: on 1975-01-25 an ON command caused a 3.9 W reserve-power drain, followed by STANDBY (with no reserve-power change) and OFF commands and a 3.9 W reserve-power recovery; on 1975-09-15 a STANDBY POWER ON command caused a 4 W reserve-power drain attributed to the standby heater, followed by an OFF command and a 4 W reserve-power recovery; and on 1976-01-31 a spurious ON command was followed by an OFF command from the Guam Tracking Station, with no observed reserve-power increase or decrease.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Solar-Wind Spectrometer operational history, printed p. 4-14.",
+      "verification_notes": "These are later spurious command/power events and do not represent restoration of routine science operations."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0066",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0066",
+      "claim_type": "Scientific contribution",
+      "claim_text": "The Apollo 15 SWS provided a second lunar-surface solar-wind spectrometer, separated from the Apollo 12 SWS by approximately 1,100 km, enabling comparison of plasma measurements at two lunar sites.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-289, Section 10, introduction, printed p. 10-1.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0067",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0067",
+      "claim_type": "Mission event / operational diagnostic",
+      "claim_text": "After the 1974-06-14 permanent OFF command, NASA-RP-1036 records Apollo 15 SWS diagnostic ON commands during real-time support on 1974-07-03, 1974-07-29 and 1974-09-03. No valid scientific or engineering data were returned; the 1974-07-29 check produced a 6.00 W reserve-power change, while the other checks produced negligible change. These were diagnostic checks, not a resumption of routine science operations.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Solar-Wind Spectrometer operational history, printed p. 4-14, event 4.",
+      "verification_notes": "The Apollo 15 Lunar Surface Magnetometer subsection separately lists ON commands on 1974-07-02, 1974-07-03, 1974-07-05 and 1974-07-29, with the 1974-09-03 check also described there. Those July 2 and July 5 dates are not assigned to the SWS. The SWS subsection lists 1974-07-03, 1974-07-29 and 1974-09-03. None restored valid SWS science or engineering data."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0071",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0071",
+      "claim_type": "Scientific finding",
+      "claim_text": "NASA-RP-1036 reports that the Apollo 15 site had a local magnetic field of approximately 3 gamma; proton observations showed no measurable differences from upstream solar-wind data, while electron observations were broadly similar to expected upstream values, with directional particle shadowing sometimes observed and lunar photoelectrons detected in the lowest-energy channels.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 6, Solar Wind Spectrometer, printed p. 6-15.",
+      "verification_notes": "The statement is limited to the reported observations and does not generalize them beyond the Apollo 15 site and reported conditions."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0072",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0072",
+      "claim_type": "Scientific comparison",
+      "claim_text": "A comparison of Apollo 12 and Apollo 15 solar-wind spectrometer observations reported substantially stronger solar-wind perturbations at Apollo 12, where the local magnetic field was relatively stronger, than at Apollo 15, where the observations showed no noticeable differences from upstream solar-wind properties. The comparison documents a difference between the two sites without establishing that local magnetic-field strength alone explains every observed difference.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0024"
+      ],
+      "relevant_source_passage_or_location": "NASA NTRS record 19750047884, abstract; Journal of Geophysical Research, volume 80, pages 1751–1760, May 1975.",
+      "verification_notes": "The claim reflects the paper's reported comparison and avoids treating the abstract's site association as a complete causal explanation."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0073",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0073",
+      "claim_type": "Instrument anomaly",
+      "claim_text": "NASA-RP-1036 records that on 1971-11-05 the Apollo 12 and Apollo 15 Solar-Wind Spectrometers experienced intermittent modulation drops in proton energy levels 13 and 14. The thermally induced problem recurred each lunation and was attributed to a circuit used solely for ground-test purposes.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Solar-Wind Spectrometer operational history, printed p. 4-12, item 1.",
+      "verification_notes": "The report explicitly lists Apollo missions 12 and 15. The event is included in the Apollo 15 SWS record and is not presented as an Apollo 15-only occurrence."
+    },
+    {
+      "record_key": "MOON-EQ-0009::CLM-0074",
+      "equipment_id": "MOON-EQ-0009",
+      "claim_id": "CLM-0074",
+      "claim_type": "Program termination milestone",
+      "claim_text": "NASA-RP-1036 records that on 1977-09-30 there was no change in Solar-Wind Spectrometer status when the ALSEP program was terminated; the row explicitly applies to Apollo 12 and Apollo 15.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "relevant_source_passage_or_location": "NASA-RP-1036, Section 4, Solar-Wind Spectrometer operational history, printed p. 4-14, termination row.",
+      "verification_notes": "This is a program-termination milestone only. NASA reports no change in SWS status at termination; this event is not described as a new OFF command or a new equipment status transition."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0075",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0075",
+      "claim_type": "Scientific purpose",
+      "claim_text": "The Apollo 16 Active Seismic Experiment was designed to generate and monitor seismic waves to investigate the near-surface structure of the Moon at the Descartes landing site, including regolith thickness, seismic properties and subsurface boundaries.",
+      "details_section": "primary_purpose",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "This claim is limited to the scientific objective; hazardous seismic-source hardware and procedures are intentionally not described."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0076",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0076",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 16 ASE receiving system included three geophones connected to the ALSEP experiment electronics and telemetry system, which recorded seismic signals for transmission to Earth.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "Only the geophone and signal-processing portions are documented here. Details of hazardous seismic-source subsystems are excluded."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0077",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0077",
+      "claim_type": "Technical",
+      "claim_text": "The Apollo 16 ASE used three miniature moving-coil/magnet geophones. Their suspended coils acted as inertial masses; above the nominal natural resonant frequency of approximately 7.5 Hz, sensor output was proportional to ground velocity.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "This describes the receiving sensors only. Hazardous seismic-source hardware is excluded."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0078",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0078",
+      "claim_type": "Technical",
+      "claim_text": "The three geophones were arranged in a linear array at reported offsets of 3 m, 48 m and 93 m from the ALSEP central station; the array bearing was 287 degrees clockwise from north.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "Offsets and bearing describe the receiving array relative to the ALSEP central station, not surveyed coordinates for each geophone."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0079",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0079",
+      "claim_type": "Technical",
+      "claim_text": "The geophone signals passed through a three-channel amplifier and logarithmic compressor before digital recording and telemetry to Earth.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "This claim covers the geophone receiving and data-processing chain only; no sampling-frequency value is asserted here."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0080",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0080",
+      "claim_type": "Scientific result",
+      "claim_text": "Apollo 16 ASE analysis identified a compressional-wave velocity of 114 m/s in the surface layer, interpreted as lunar regolith, and a faster velocity of 250 m/s in an underlying layer whose refracting horizon was estimated at 12.2 m depth.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "These are Apollo 16 site-specific preliminary results, not values transferred from Apollo 14."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0081",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0081",
+      "claim_type": "Scientific interpretation",
+      "claim_text": "NASA's preliminary Apollo 16 analysis identified a 250 m/s refracting horizon beneath the surface layer; the report treated the geological interpretation of the deeper material as preliminary rather than a definitive identification.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "The report's interpretation is preserved as tentative; no definitive lithological identification is asserted."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0082",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0082",
+      "claim_type": "Location",
+      "claim_text": "The Apollo 16 ALSEP central-station deployment site is listed at 8.97537 degrees south latitude and 15.49812 degrees east longitude. These are array-site coordinates, not individual ASE geophone coordinates.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0026"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-4029, Lunar Surface Experiments Package Arrays and Status, Apollo 16 array deployment-site latitude and longitude.",
+      "verification_notes": "Individual ASE geophone coordinates remain UNKNOWN."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0083",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0083",
+      "claim_type": "Timeline",
+      "claim_text": "NASA's records document the Apollo 16 mission launch on 1972-04-16, lunar landing on 1972-04-21, ALSEP array command ON at 19:38 GMT on 1972-04-21, and array command OFF on 1977-09-30.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0026",
+        "SRC-0027"
+      ],
+      "relevant_source_passage_or_location": "NASA NSSDC Apollo 16 mission information page; NASA SP-4029 ALSEP Arrays and Status table, Apollo 16 column.",
+      "verification_notes": "The dates refer to the Apollo 16 ALSEP array command history; they are not claimed to be component-level telemetry timestamps for each geophone."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0084",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0084",
+      "claim_type": "Status",
+      "claim_text": "The Apollo 16 ALSEP array was commanded OFF on 1977-09-30, the date NASA identifies as the decommissioning of the ALSEP stations and end of program data collection. This supports program-level DECOMMISSIONED status; the present physical condition of individual ASE components is UNKNOWN.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0026",
+        "SRC-0028"
+      ],
+      "relevant_source_passage_or_location": "NASA SP-4029 ALSEP Arrays and Status table; NASA NTRS record 20180008613, History and Status of ALSEP and the Apollo Lunar Data Project.",
+      "verification_notes": "Program termination does not establish whether individual components remain intact, have been disturbed, or have changed condition."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0085",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0085",
+      "claim_type": "Scientific contribution",
+      "claim_text": "The Apollo 16 ASE added a Descartes highlands active-seismic profile to the Apollo lunar near-surface investigation. Its 114 m/s surface-layer velocity was compared in NASA's report with values reported for Apollo 12, 14 and 15; those earlier measurements are comparisons, not Apollo 16 results.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA Apollo 16 primary science report; geophone receiving-system context and Apollo 16 scientific results. Hazardous source-system content is excluded.",
+      "verification_notes": "The claim describes the Apollo 16 contribution and does not substitute measurements from Apollo 12, 14 or 15 for Apollo 16 data."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0086",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0086",
+      "claim_type": "Mission timeline",
+      "claim_text": "NASA NSSDC records Apollo 16 launched on 1972-04-16, landed at Descartes on 1972-04-21, and returned to Earth on 1972-04-27.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "relevant_source_passage_or_location": "NASA NSSDC Apollo 16 mission page, mission header: launch, lunar landing and Earth-return dates.",
+      "verification_notes": "Mission-level context only; not a component-level ASE activation record."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0087",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0087",
+      "claim_type": "Technical — geophone transducer principle",
+      "claim_text": "The Apollo 16 ASE geophones used a moving-coil/magnet transducer: relative motion of a suspended coil in the sensor's magnetic field generated the electrical signal used to measure lunar ground motion.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone receiving-system description. Hazardous source-system material is excluded.",
+      "verification_notes": "Describes the geophone sensor principle only; no hazardous seismic-source construction or operating information is included."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0088",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0088",
+      "claim_type": "Technical — geophone array positions",
+      "claim_text": "The three Apollo 16 ASE geophones were arranged in a linear array at reported offsets of 3 m, 48 m and 93 m from the ALSEP central station.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone array layout. Hazardous source-system material is excluded.",
+      "verification_notes": "These are linear-array offsets from the ALSEP central station, not individual latitude/longitude coordinates."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0089",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0089",
+      "claim_type": "Technical — geophone natural resonant frequency",
+      "claim_text": "The Apollo 16 ASE geophones had a reported nominal natural resonant frequency of approximately 7.5 Hz.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone sensor characteristics. Hazardous source-system material is excluded.",
+      "verification_notes": "The value is retained as approximate, consistent with the report-level specification."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0090",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0090",
+      "claim_type": "Technical — geophone measurement response",
+      "claim_text": "Above the geophones' natural resonant frequency, the sensor output was proportional to ground velocity.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone frequency-response description. Hazardous source-system material is excluded.",
+      "verification_notes": "This describes the receiving sensor's measurement response and does not specify any hazardous source-device operation."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0091",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0091",
+      "claim_type": "Technical — amplifier channel count",
+      "claim_text": "The Apollo 16 ASE geophone receiving electronics used a three-channel amplifier path.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone signal-conditioning description. Hazardous source-system material is excluded.",
+      "verification_notes": "The channel count applies to the receiving/data-conditioning path only."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0092",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0092",
+      "claim_type": "Technical — signal compression",
+      "claim_text": "The Apollo 16 ASE geophone signal-conditioning path used logarithmic compression before digital recording and telemetry.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "relevant_source_passage_or_location": "NASA primary Apollo 16 science report; geophone signal-conditioning description. Hazardous source-system material is excluded.",
+      "verification_notes": "Only the geophone measurement data path is documented."
+    },
+    {
+      "record_key": "MOON-EQ-0010::CLM-0093",
+      "equipment_id": "MOON-EQ-0010",
+      "claim_id": "CLM-0093",
+      "claim_type": "Technical — digital sampling frequency (unresolved)",
+      "claim_text": "The Apollo 16 ASE digital sampling frequency is UNKNOWN pending direct verification of the original NASA handbook passage; neither 500 Hz nor 530 Hz is assigned in this record.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "UNVERIFIED",
+      "source_ids": [
+        "SRC-0025",
+        "SRC-0029"
+      ],
+      "relevant_source_passage_or_location": "Restricted NASA primary bibliographic references are retained for traceability. No direct passage locator or numeric sampling-frequency evidence is included.",
+      "verification_notes": "The original NASA technical passage has not been checked. ATT-0054 remains null; neither 500 Hz nor 530 Hz is asserted. The claim remains UNVERIFIED."
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0569",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0569",
+      "claim_type": "Technical",
+      "claim_text": "SuperCam is a remote-sensing instrument suite using a laser, camera and spectrometers to examine Martian rocks and soils.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, Perseverance Science Instruments, SuperCam description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0570",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0570",
+      "claim_type": "Technical",
+      "claim_text": "SuperCam includes LIBS, Raman, time-resolved fluorescence and passive visible/infrared spectroscopy, plus a Remote Micro-Imager and microphone.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0155"
+      ],
+      "relevant_source_passage_or_location": "NASA PDS, SuperCam instrument context description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0571",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0571",
+      "claim_type": "Location",
+      "claim_text": "SuperCam’s mast unit is mounted on the head of Perseverance’s remote-sensing mast.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, SuperCam location and tech specifications.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0572",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0572",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance carrying SuperCam launched on 2020-07-30 aboard a ULA Atlas V 541.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0573",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0573",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance landed in Jezero Crater on 2021-02-18.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Surface Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0036::CLM-0597",
+      "equipment_id": "MARS-EQ-0036",
+      "claim_id": "CLM-0597",
+      "claim_type": "Status",
+      "claim_text": "NASA’s 2026 Planetary Mission Senior Review lists SuperCam among the remaining Perseverance instruments acquiring data and describes the listed remaining instruments as generally healthy. This supports an OPERATIONAL classification as of 2026-03-02, not a live telemetry reading or a guarantee that every subsystem is fault-free.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0167"
+      ],
+      "relevant_source_passage_or_location": "2026 Planetary Mission Senior Review — Final Report, PDF page 5, report lines 236–247.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0574",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0574",
+      "claim_type": "Technical",
+      "claim_text": "MEDA measures wind speed and direction, temperature, humidity and the amount and size of atmospheric dust particles.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, Perseverance Science Instruments, MEDA description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0575",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0575",
+      "claim_type": "Technical",
+      "claim_text": "NASA reports MEDA mass of approximately 5.5 kg for all components and power use up to 17 W depending on scheduled measurements.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, MEDA Tech Specs.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0576",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0576",
+      "claim_type": "Location",
+      "claim_text": "MEDA sensor assemblies are located on the rover mast and on the deck, front and interior of the rover body.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, MEDA Tech Specs, Location.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0577",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0577",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance carrying MEDA launched on 2020-07-30 aboard a ULA Atlas V 541.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0578",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0578",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance landed in Jezero Crater on 2021-02-18.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Surface Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0037::CLM-0598",
+      "equipment_id": "MARS-EQ-0037",
+      "claim_id": "CLM-0598",
+      "claim_type": "Status",
+      "claim_text": "NASA’s 2026 Planetary Mission Senior Review reports that MEDA no longer has operational wind sensors except one that continues to provide data, and warns that total sensor failure was possible during the proposed extended mission. This is partial/degraded operation as of 2026-03-02; it is not evidence that the full MEDA sensor suite was operational.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0167"
+      ],
+      "relevant_source_passage_or_location": "2026 Planetary Mission Senior Review — Final Report, PDF page 5, report lines 236–247.",
+      "verification_notes": "One wind sensor continued returning data; other wind sensors were no longer operational. The report does not establish a later live status."
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0579",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0579",
+      "claim_type": "Technical",
+      "claim_text": "RIMFAX is a ground-penetrating radar that uses radar waves to investigate geological structures beneath the rover.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153",
+        "SRC-0157"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, Perseverance Science Instruments; Searching for Buried Treasure on Mars With RIMFAX.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0580",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0580",
+      "claim_type": "Technical",
+      "claim_text": "RIMFAX uses a single antenna and can operate in active transmit-and-receive or passive receive-only mode across 150–1200 MHz.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0156"
+      ],
+      "relevant_source_passage_or_location": "NASA PDS, RIMFAX instrument context description.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0581",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0581",
+      "claim_type": "Technical",
+      "claim_text": "NASA Science reports RIMFAX mass below 3 kg and power use of 5–10 W.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, RIMFAX Tech Specs.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0582",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0582",
+      "claim_type": "Location",
+      "claim_text": "RIMFAX’s radar antenna is mounted on the lower rear of Perseverance.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0153",
+        "SRC-0157"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, RIMFAX Tech Specs and RIMFAX article.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0583",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0583",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance carrying RIMFAX launched on 2020-07-30 aboard a ULA Atlas V 541.",
+      "details_section": "its_story",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0584",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0584",
+      "claim_type": "Mission event",
+      "claim_text": "Perseverance landed in Jezero Crater on 2021-02-18.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0154"
+      ],
+      "relevant_source_passage_or_location": "Mars 2020 Perseverance Landing Press Kit, Quick Facts, Surface Mission.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0038::CLM-0599",
+      "equipment_id": "MARS-EQ-0038",
+      "claim_id": "CLM-0599",
+      "claim_type": "Status",
+      "claim_text": "NASA’s 2026 Planetary Mission Senior Review lists RIMFAX among the remaining Perseverance instruments acquiring data and describes the listed remaining instruments as generally healthy. This supports an OPERATIONAL classification as of 2026-03-02, not a live telemetry reading or a guarantee that every subsystem is fault-free.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0167"
+      ],
+      "relevant_source_passage_or_location": "2026 Planetary Mission Senior Review — Final Report, PDF page 5, report lines 236–247.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0585",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0585",
+      "claim_type": "Technical",
+      "claim_text": "SEIS is a seismometer package that measures seismic waves from marsquakes, meteorite impacts and other sources.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0158",
+        "SRC-0159"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, InSight Science Instruments; SEIS Deployed on Mars.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0586",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0586",
+      "claim_type": "Technical",
+      "claim_text": "SEIS combines very-broad-band and short-period three-axis seismometers.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0158"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, InSight Science Instruments.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0587",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0587",
+      "claim_type": "Technical",
+      "claim_text": "NASA Science reports SEIS power use up to 8.5 W and volume of about 3 L.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0158"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, SEIS Tech Specs.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0588",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0588",
+      "claim_type": "Mission event",
+      "claim_text": "InSight landed on Mars on 2018-11-26.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "relevant_source_passage_or_location": "NASA JPL, InSight mission overview, mission highlights.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0589",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0589",
+      "claim_type": "Mission event",
+      "claim_text": "InSight placed SEIS on the Martian surface on 2018-12-19.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0159"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, SEIS Deployed on Mars.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0590",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0590",
+      "claim_type": "Scientific discovery",
+      "claim_text": "SEIS recorded the first likely marsquake on 2019-04-06, mission sol 128.",
+      "details_section": "discoveries_and_contributions",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0160"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, NASA’s InSight Detects First Likely Quake on Mars.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0591",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0591",
+      "claim_type": "Mission event",
+      "claim_text": "NASA reported that InSight last communicated with Earth on 2022-12-15 and that the mission was retired on 2022-12-21; these mission-level facts do not establish SEIS-specific instrument health.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0163",
+        "SRC-0164"
+      ],
+      "relevant_source_passage_or_location": "NASA Science Dec. 19, 2022 status update and NASA mission retirement announcement.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0600",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0600",
+      "claim_type": "Mission event",
+      "claim_text": "NASA’s InSight mission launched from Vandenberg Air Force Base on 2018-05-05; SEIS was part of the mission payload.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "relevant_source_passage_or_location": "NASA JPL, InSight mission overview and mission highlights: May 5, 2018 successful launch.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0039::CLM-0601",
+      "equipment_id": "MARS-EQ-0039",
+      "claim_id": "CLM-0601",
+      "claim_type": "Mission event",
+      "claim_text": "NASA declared the InSight mission over on 2022-12-21 after two consecutive communication attempts failed; the last communication was on 2022-12-15. This is a mission-retirement event, not a direct instrument-health measurement for SEIS.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0164"
+      ],
+      "relevant_source_passage_or_location": "NASA, NASA Retires InSight Mars Lander Mission After Years of Science, 2022-12-21.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0592",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0592",
+      "claim_type": "Technical",
+      "claim_text": "HP³ was designed to measure heat flowing from Mars’ interior using a self-hammering mole and temperature sensors along a tether.",
+      "details_section": "overview",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0158",
+        "SRC-0161"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, InSight Science Instruments; HP3 on the Martian Surface.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0593",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0593",
+      "claim_type": "Technical",
+      "claim_text": "NASA Science reports HP³ mass of about 3 kg including control electronics, maximum burrowing power of 2 W and total volume about 20 L.",
+      "details_section": "how_was_it_built",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0158"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, HP3 Tech Specs.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0594",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0594",
+      "claim_type": "Mission event",
+      "claim_text": "InSight deployed HP³ onto the Martian surface on 2019-02-12.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0161"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, HP3 on the Martian Surface.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0595",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0595",
+      "claim_type": "Mission event",
+      "claim_text": "The HP³ mole did not reach its planned 3–5 m depth; NASA reports that its progress stopped after about 35 cm and the team ended efforts on 2021-01-09.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0162",
+        "SRC-0165"
+      ],
+      "relevant_source_passage_or_location": "NASA Science, InSight’s Mole Comes to Rest; NASA, InSight Uncovers the Mole.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0596",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0596",
+      "claim_type": "Status",
+      "claim_text": "NASA documents the end of the HP³ mole penetration effort on 2021-01-09 and the retirement of the InSight mission on 2022-12-21; these events do not establish the instrument-specific operating state of every HP³ component or physical removal of the package.",
+      "details_section": "current_status_and_location",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0162",
+        "SRC-0164"
+      ],
+      "relevant_source_passage_or_location": "NASA Science mole status update and NASA InSight mission retirement announcement.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0602",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0602",
+      "claim_type": "Mission event",
+      "claim_text": "The InSight mission carrying HP³ launched from Vandenberg Air Force Base on 2018-05-05.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "relevant_source_passage_or_location": "NASA JPL, InSight mission overview and mission highlights: May 5, 2018 successful launch.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0603",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0603",
+      "claim_type": "Mission event",
+      "claim_text": "InSight, carrying HP³, landed on Mars on 2018-11-26.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0166"
+      ],
+      "relevant_source_passage_or_location": "NASA JPL, InSight mission overview and mission highlights: November 26, 2018 successful landing.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0604",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0604",
+      "claim_type": "Mission event",
+      "claim_text": "NASA reported that the HP³ mole stopped making progress after hammering on 2019-02-28, following an attempt to penetrate the Martian soil. This event records the documented pause/cessation of progress, not removal of the complete HP³ package.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0165"
+      ],
+      "relevant_source_passage_or_location": "NASA, NASA’s InSight Uncovers the Mole, 2019-03-05; description of the 2019-02-28 hammering pause.",
+      "verification_notes": "The NASA source documents the mole’s halt in progress; it does not establish that the complete HP³ package was removed."
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0605",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0605",
+      "claim_type": "Mission event",
+      "claim_text": "NASA reported that InSight last communicated with Earth on 2022-12-15. This is the last known mission communication date, not an HP³-specific telemetry reading.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "LIMITED",
+      "source_ids": [
+        "SRC-0163"
+      ],
+      "relevant_source_passage_or_location": "NASA InSight – Dec. 19, 2022, statement that last mission contact occurred 2022-12-15.",
+      "verification_notes": null
+    },
+    {
+      "record_key": "MARS-EQ-0040::CLM-0606",
+      "equipment_id": "MARS-EQ-0040",
+      "claim_id": "CLM-0606",
+      "claim_type": "Mission event",
+      "claim_text": "NASA declared the InSight mission over on 2022-12-21 after missed communication attempts. This mission-retirement event does not establish that the full HP³ package was physically removed or abandoned.",
+      "details_section": "mission_timeline",
+      "evidence_classification": "DIRECT",
+      "source_ids": [
+        "SRC-0164"
+      ],
+      "relevant_source_passage_or_location": "NASA Retires InSight Mars Lander Mission After Years of Science, 2022-12-21.",
+      "verification_notes": "Mission retirement is distinct from instrument removal or physical abandonment."
+    }
+  ]
+}

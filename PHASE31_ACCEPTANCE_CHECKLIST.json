@@ -1,0 +1,56 @@
+{
+  "phase": 31,
+  "title": "Full Website Acceptance Preparation",
+  "date": "2026-11-13",
+  "working_copy": "retrace_phase12/base_work/abnf-home-prototype",
+  "release_status": "NOT_READY",
+  "static_suites": [
+    {"name": "Phase 21", "passed": 51, "failed": 0},
+    {"name": "Phase 24", "passed": 16, "failed": 0},
+    {"name": "Phase 25", "passed": 12, "failed": 0},
+    {"name": "Phase 26", "passed": 10, "failed": 0},
+    {"name": "Phase 29", "passed": 6, "failed": 0}
+  ],
+  "static_check_total": {"passed": 95, "failed": 0, "note": "Sum of listed suites; coverage overlap may exist."},
+  "phase30_data_integrity": {"passed": 17, "failed": 0, "separate_audit": true},
+  "browser_attempt": {
+    "suite": "tests/phase22_browser_acceptance.py",
+    "passed": 0,
+    "failed": 0,
+    "blocked": 3,
+    "viewports": ["desktop 1440x1000", "tablet 820x1000", "mobile 390x844"],
+    "cause": "net::ERR_BLOCKED_BY_ADMINISTRATOR before application load",
+    "acceptance_status": "NOT_VERIFIED"
+  },
+  "screen_gates": {
+    "home": "BROWSER_BLOCKED",
+    "moon_destination": "BROWSER_BLOCKED",
+    "mars_destination": "BROWSER_BLOCKED",
+    "equipment_library": "BROWSER_BLOCKED",
+    "full_equipment_details": "BROWSER_BLOCKED",
+    "filters": "BROWSER_BLOCKED_AND_DATE_FIXTURE_LIMITED",
+    "compare": "BROWSER_BLOCKED",
+    "quiz": "BROWSER_BLOCKED_AND_CONTENT_PENDING",
+    "glossary": "BROWSER_BLOCKED_AND_NOT_REAUDITED",
+    "sources_and_evidence": "BROWSER_BLOCKED",
+    "about": "BROWSER_BLOCKED_AND_NOT_REAUDITED",
+    "updates": "BROWSER_BLOCKED_AND_NOT_REAUDITED",
+    "contact_feedback_report": "BROWSER_BLOCKED_AND_RECIPIENT_UNCONFIGURED",
+    "shared_navigation_search": "BROWSER_BLOCKED"
+  },
+  "non_browser_release_gates": [
+    "NASA factual claim and equipment status approval",
+    "Approved evidence-linked quiz question bank",
+    "Mars 2020 mission registry resolution",
+    "Compare attribute citations and approved comparison rules",
+    "Approved contact recipient configuration",
+    "Publication review; all 15 records currently Draft"
+  ],
+  "integrity": {
+    "original_base_zip_modified": false,
+    "nasa_research_records_changed": false,
+    "publication_states_changed": false,
+    "final_zip_packaged": false
+  },
+  "next_action": "Reconcile Playwright assertions to the current approved DOM and copy, then rerun browser acceptance in an environment permitting local HTTP navigation."
+}
