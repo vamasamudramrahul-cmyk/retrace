@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "policy": "Only equipment-specific numeric coordinates with linked location evidence are supplied to the map marker engine.",
+  "eligible_marker_count": 1,
+  "equipment": [
+    {
+      "id": "MOON-EQ-0004",
+      "name": "Lunar Surface Magnetometer",
+      "destination": "Moon",
+      "missionName": "Apollo 12",
+      "latitude": -2.97,
+      "longitude": -23.35,
+      "hasLocation": true,
+      "locationType": "EQUIPMENT_POSITION",
+      "coordinatePrecision": "Reported to three decimal places; absolute positional accuracy not stated",
+      "uncertaintyNotes": "NASA-SP-235 prints the instrument location as 2.970° S, 23.350° W. The displayed three decimal places preserve the source notation only; the report does not state absolute positional accuracy, survey accuracy, or a verified uncertainty radius. These instrument-specific coordinates are distinct from the Apollo 12 ALSEP array deployment-site coordinates.",
+      "verificationStatus": "PARTIALLY_VERIFIED",
+      "claimIds": [
+        "CLM-0034"
+      ],
+      "sourceIds": [
+        "SRC-0005"
+      ],
+      "locationDescription": "Apollo 12 Lunar Surface Magnetometer location, 2.970° S, 23.350° W, as printed in NASA-SP-235.",
+      "observationDate": "1969-11-19"
+    }
+  ],
+  "excluded_coordinate_notes": [
+    "MOON-EQ-0002: numeric coordinates describe ALSEP_array_deployment_site, not an independently established equipment position; excluded from equipment markers."
+  ]
+}

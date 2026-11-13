@@ -1,0 +1,755 @@
+{
+  "dataset_id": "RETRACE-ELEARNING-TEST-001",
+  "dataset_version": "0.1.0",
+  "environment": "TEST_ONLY",
+  "source_file": "What Is Space Junk and Abandoned Space Hardware.pdf",
+  "source_scope": "Source-faithful extraction for website testing; not NASA factual verification or publication approval.",
+  "collections": [
+    {
+      "collection_id": "CHAT1",
+      "display_title": "NASA Space Exploration & Forgotten Equipment",
+      "collection_status": "TEST_CONTENT_FROM_UPLOADED_PDF",
+      "lessons": [
+        {
+          "lesson_id": "CHAT1-TEST-L01",
+          "lesson_number": 1,
+          "title": "What Is Space Junk and Abandoned Space Hardware?",
+          "overview": "When humans explore space, what happens to the machines, equipment and materials they leave behind?",
+          "source_label": "Lesson 1 of 9",
+          "source_page_range": [
+            1,
+            1
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L01-C01",
+              "chapter_number": 1,
+              "title": "What is space hardware?",
+              "content_text": "Space hardware refers to human-made equipment designed, built or used for activities beyond Earth's atmosphere.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L01-C02",
+              "chapter_number": 2,
+              "title": "What is space junk?",
+              "content_text": "The expression space junk is commonly used to describe human-made objects that are no longer useful.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L01-C03",
+              "chapter_number": 3,
+              "title": "Why is orbital debris a problem?",
+              "content_text": "Spacecraft travel at very high speeds.\nEven relatively small pieces of debris can damage spacecraft and create risks for satellites and astronauts.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L01-C04",
+              "chapter_number": 4,
+              "title": "What are abandoned space artifacts?",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L01-C05",
+              "chapter_number": 5,
+              "title": "Why does equipment remain behind?",
+              "content_text": "An artifact is an object created, modified or used by humans that has historical, scientific or cultural significance.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L02",
+          "lesson_number": 2,
+          "title": "The Moon's Forgotten Machines",
+          "overview": "What did humanity leave on the Moon, and what can those machines teach us today?",
+          "source_label": "Lesson 2 of 9",
+          "source_page_range": [
+            1,
+            2
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L02-C01",
+              "chapter_number": 1,
+              "title": "Before Apollo: The first robotic explorers",
+              "content_text": "Human exploration of the Moon did not begin with astronauts.\nBefore people landed there, robotic spacecraft helped scientists understand the lunar environment.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L02-C02",
+              "chapter_number": 2,
+              "title": "Apollo: Machines that supported human exploration",
+              "content_text": "The Apollo program made it possible for humans to land on the Moon.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L02-C03",
+              "chapter_number": 3,
+              "title": "The scientific instruments that stayed behind",
+              "content_text": "One of the most important contributions of lunar exploration was the scientific equipment left on the Moon.\nSome instruments continued producing valuable scientific information after the astronauts returned to Earth.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L02-C04",
+              "chapter_number": 4,
+              "title": "What can we still see on the Moon?",
+              "content_text": "The lunar surface preserves evidence of historic missions.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L02-C05",
+              "chapter_number": 5,
+              "title": "Preserving lunar history",
+              "content_text": "The Moon has no ordinary weather system like Earth.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L03",
+          "lesson_number": 3,
+          "title": "Mars: The Robots That Stayed Behind",
+          "overview": "How did robotic explorers investigate Mars, what did they discover, and what happened to the machines after their missions?",
+          "source_label": "Lesson 3 of 9",
+          "source_page_range": [
+            2,
+            3
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L03-C01",
+              "chapter_number": 1,
+              "title": "The different types of Mars explorers",
+              "content_text": "Mars exploration uses three major types of robotic spacecraft.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C02",
+              "chapter_number": 2,
+              "title": "The early Mars explorers",
+              "content_text": "Before modern rovers, engineers had to solve a fundamental problem:\nCould a spacecraft survive the journey to Mars and successfully reach its surface?",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C03",
+              "chapter_number": 3,
+              "title": "Curiosity: A mobile science laboratory",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C04",
+              "chapter_number": 4,
+              "title": "Perseverance: Searching for evidence of ancient life",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C05",
+              "chapter_number": 5,
+              "title": "Ingenuity: The first powered aircraft on another planet",
+              "content_text": "Mars exploration also introduced an entirely different type of robotic machine.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C06",
+              "chapter_number": 6,
+              "title": "The machines that stopped working",
+              "content_text": "Not every Mars mission remains active forever.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C07",
+              "chapter_number": 7,
+              "title": "How do Mars robots communicate with Earth?",
+              "content_text": "A Mars rover cannot simply use an ordinary mobile-phone network.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C08",
+              "chapter_number": 8,
+              "title": "How do robots land on Mars?",
+              "content_text": "Landing a spacecraft on Mars is one of the most challenging parts of a mission.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L03-C09",
+              "chapter_number": 9,
+              "title": "The future of Mars exploration",
+              "content_text": "Mars exploration continues to develop.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L04",
+          "lesson_number": 4,
+          "title": "How Does Space Hardware Work?",
+          "overview": "How can a machine survive in space, move through the universe, communicate with Earth and perform scientific investigations without human hands operating it directly?",
+          "source_label": "Lesson 4 of 9",
+          "source_page_range": [
+            3,
+            4
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L04-C01",
+              "chapter_number": 1,
+              "title": "Understanding the spacecraft as a system",
+              "content_text": "Before studying individual components, we need to understand how a spacecraft is organized.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C02",
+              "chapter_number": 2,
+              "title": "Electrical power systems",
+              "content_text": "Every electronic spacecraft system requires electrical power.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C03",
+              "chapter_number": 3,
+              "title": "Communication systems",
+              "content_text": "How does a spacecraft send photographs from another planet?",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C04",
+              "chapter_number": 4,
+              "title": "Guidance, Navigation and Control",
+              "content_text": "A spacecraft must know where it is, which direction it is facing and how to maintain its intended orientation.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C05",
+              "chapter_number": 5,
+              "title": "Propulsion systems",
+              "content_text": "A spacecraft sometimes needs to change its velocity or trajectory.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C06",
+              "chapter_number": 6,
+              "title": "Thermal-control systems",
+              "content_text": "Spacecraft operate in environments with significant temperature variations.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C07",
+              "chapter_number": 7,
+              "title": "Command, computers and data handling",
+              "content_text": "A spacecraft requires computers to coordinate its operations.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C08",
+              "chapter_number": 8,
+              "title": "Scientific instruments and payloads",
+              "content_text": "A spacecraft can have excellent power, communication and navigation systems, but without a useful scientific payload, it cannot achieve its intended scientific objectives.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C09",
+              "chapter_number": 9,
+              "title": "Structures and mechanical systems",
+              "content_text": "A spacecraft needs a physical structure that supports its equipment and protects important components.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C10",
+              "chapter_number": 10,
+              "title": "Autonomous systems",
+              "content_text": "Some spacecraft must perform tasks without receiving instructions for every individual movement.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L04-C11",
+              "chapter_number": 11,
+              "title": "How all spacecraft systems work together",
+              "content_text": "Understanding individual components is useful, but understanding their interactions is what makes someone think like a spacecraft engineer.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L05",
+          "lesson_number": 5,
+          "title": "Famous Space Missions and Their Discoveries",
+          "overview": "Proposed curriculum specification · Foundations to Applied Exploration",
+          "source_label": "Lesson 5",
+          "source_page_range": [
+            4,
+            5
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L05-C01",
+              "chapter_number": 1,
+              "title": "The age of space exploration",
+              "content_text": "Early space exploration and the development of robotic missions.\nFlyby, orbiter, lander, rover and space telescope.\nWhy different scientific questions require different mission designs.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L05-C02",
+              "chapter_number": 2,
+              "title": "Exploring our Solar System",
+              "content_text": "Moon: Apollo and robotic lunar exploration.\nMars: Viking, Pathfinder, Spirit, Opportunity, Curiosity and Perseverance.\nJupiter and Saturn: Galileo, Juno and Cassini.\nPluto: New Horizons.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L05-C03",
+              "chapter_number": 3,
+              "title": "Looking deeper into the universe",
+              "content_text": "Hubble Space Telescope.\nJames Webb Space Telescope.\nCOBE and the study of the cosmic microwave background.\nHow different wavelengths reveal different information.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L05-C04",
+              "chapter_number": 4,
+              "title": "Missions that changed science",
+              "content_text": "Unexpected discoveries.\nHow scientific evidence changes existing ideas.\nWhy discoveries lead to new questions.\nHow later missions build on earlier results.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L05-C05",
+              "chapter_number": 5,
+              "title": "The legacy of a mission",
+              "content_text": "What happens when a mission ends?\nWhat hardware remains?\nWhat data remains useful?\nHow a completed mission continues contributing to science.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L06",
+          "lesson_number": 6,
+          "title": "Why Does Space Equipment Get Abandoned?",
+          "overview": "That lesson will connect mission design, engineering limitations, scientific priorities and the reasons hardware remains in space.\nIf a spacecraft costs millions or billions to build and launch, why don't we bring it back when its mission ends?",
+          "source_label": "Lesson 6",
+          "source_page_range": [
+            5,
+            6
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L06-C01",
+              "chapter_number": 1,
+              "title": "Spacecraft do not last forever",
+              "content_text": "Why spacecraft have limited lifetimes?",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L06-C02",
+              "chapter_number": 2,
+              "title": "Why missions come to an end",
+              "content_text": "Investigate six major causes.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L06-C03",
+              "chapter_number": 3,
+              "title": "Why not bring everything home?",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L06-C04",
+              "chapter_number": 4,
+              "title": "What happens after a mission ends?",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L06-C05",
+              "chapter_number": 5,
+              "title": "Designing responsible endings",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L07",
+          "lesson_number": 7,
+          "title": "Engineering Behind Space Hardware.",
+          "overview": "This will take learners beyond understanding spacecraft components and introduce the engineering decisions, constraints, trade-offs and innovations that make space exploration possible.\nHow do engineers build machines that must work in space, often millions of kilometres away, where repair may be impossible?",
+          "source_label": "Lesson 7",
+          "source_page_range": [
+            6,
+            6
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L07-C01",
+              "chapter_number": 1,
+              "title": "The engineering challenge",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L07-C02",
+              "chapter_number": 2,
+              "title": "The engineering challenge",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L07-C03",
+              "chapter_number": 3,
+              "title": "Engineering for extreme environments",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L07-C04",
+              "chapter_number": 4,
+              "title": "Test, test and test again",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L07-C05",
+              "chapter_number": 5,
+              "title": "Engineering trade-offs and innovation",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L08",
+          "lesson_number": 8,
+          "title": "Analyze a Space Mission and Its Scientific Data.",
+          "overview": "This will introduce learners to the work of researchers: examining real mission observations, interpreting data, identifying patterns and building conclusions supported by evidence.",
+          "source_label": "Lesson 8",
+          "source_page_range": [
+            6,
+            6
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L08-C01",
+              "chapter_number": 1,
+              "title": "From spacecraft to scientific data",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L08-C02",
+              "chapter_number": 2,
+              "title": "Learn to read the evidence",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L08-C03",
+              "chapter_number": 3,
+              "title": "Investigate real missions",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L08-C04",
+              "chapter_number": 4,
+              "title": "From observations to conclusions",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L08-C05",
+              "chapter_number": 5,
+              "title": "Become a mission researcher",
+              "content_text": "",
+              "content_status": "TITLE_ONLY_IN_SOURCE",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        },
+        {
+          "lesson_id": "CHAT1-TEST-L09",
+          "lesson_number": 9,
+          "title": "Future of Space Technology and Space Sustainability.",
+          "overview": "This final flagship lesson will connect the entire curriculum to future exploration, responsible space operations, sustainability, innovation and the role learners can play in shaping humanity's future in space.\nHow can humanity continue exploring space while protecting the environments, scientific opportunities and resources that make exploration possible?",
+          "source_label": "Lesson 9",
+          "source_page_range": [
+            6,
+            8
+          ],
+          "chapters": [
+            {
+              "chapter_id": "CHAT1-TEST-L09-C01",
+              "chapter_number": 1,
+              "title": "The next era of exploration",
+              "content_text": "The evolution of robotic exploration.\nNew lunar exploration programmes.\nFuture Mars exploration.\nAdvanced observatories.\nCommercial and international space missions.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L09-C02",
+              "chapter_number": 2,
+              "title": "Technologies shaping the future",
+              "content_text": "Autonomous robots.\nAdvanced scientific instruments.\nImproved power systems.\nIn-space servicing and assembly.\nSample collection and return.\nAdvanced communications.\nSmall satellites and distributed missions.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L09-C03",
+              "chapter_number": 3,
+              "title": "Space sustainability challenges",
+              "content_text": "Orbital debris.\nResponsible spacecraft disposal.\nPlanetary protection.\nLunar heritage preservation.\nRadio-frequency coordination.\nLong-term environmental considerations.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L09-C04",
+              "chapter_number": 4,
+              "title": "Responsible exploration",
+              "content_text": "International cooperation.\nResponsible mission design.\nScientific and cultural heritage.\nLong-term resource management.\nTransparency and information sharing.\nBalancing scientific progress with environmental responsibility.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            },
+            {
+              "chapter_id": "CHAT1-TEST-L09-C05",
+              "chapter_number": 5,
+              "title": "Design the future",
+              "content_text": "Identify a future scientific objective.\nChoose a suitable exploration technology.\nConsider engineering constraints.\nPlan for sustainability.\nCreate a future mission proposal.",
+              "content_status": "SOURCE_TEXT_PRESENT",
+              "difficulty": "UNCLASSIFIED",
+              "resource_type": "Lesson",
+              "source_page_range": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection_id": "CHAT2",
+      "display_title": "Space Science & Technology",
+      "collection_status": "PLACEHOLDER_ONLY",
+      "subjects": [
+        {
+          "subject_id": "CHAT2-SUB-01",
+          "title": "Spacecraft Design, Engineering and Technology",
+          "chapter_count": 11
+        },
+        {
+          "subject_id": "CHAT2-SUB-02",
+          "title": "Planetary Exploration and Mission Operations",
+          "chapter_count": 11
+        },
+        {
+          "subject_id": "CHAT2-SUB-03",
+          "title": "Astronomy, Astrobiology and Cosmic Science",
+          "chapter_count": 10
+        }
+      ],
+      "note": "Only collection metadata and subject counts are supplied here. Chapter titles/content are intentionally not fabricated."
+    }
+  ],
+  "discovery_filters": {
+    "education_level": [
+      "All levels",
+      "School",
+      "Intermediate",
+      "Engineering / Degree"
+    ],
+    "difficulty": [
+      "All levels",
+      "Beginner",
+      "Medium",
+      "Advanced"
+    ],
+    "resource_type": [
+      "All resource types",
+      "Lesson",
+      "Project",
+      "Investigation",
+      "Teacher Resource"
+    ],
+    "defaults": {
+      "education_level": "All levels",
+      "difficulty": "All levels",
+      "resource_type": "All resource types",
+      "search": ""
+    }
+  },
+  "personal_tools": [
+    "My Learning",
+    "My Notes",
+    "Bookmarks",
+    "My Collections",
+    "Export Progress"
+  ],
+  "classroom_activities": [
+    "Quick Quiz",
+    "Knowledge Challenge",
+    "Think & Discover"
+  ],
+  "teacher_resource_categories": [
+    "Teaching Resources",
+    "Worksheets & Activities",
+    "Learning Guides"
+  ],
+  "data_rules": {
+    "missing_content": "Do not invent; preserve empty content and TITLE_ONLY_IN_SOURCE status.",
+    "unclassified_filters": "Do not assign an unverified education level or difficulty.",
+    "test_data": "All IDs and records in this package are test identifiers, not production identifiers."
+  }
+}

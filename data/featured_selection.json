@@ -1,0 +1,16 @@
+{
+  "note": "All ten selected Moon and Mars testing records are shown in the Home featured carousel and across relevant screens.",
+  "expected_count": 10,
+  "featured_ids": [
+    "MOON-EQ-0001",
+    "MOON-EQ-0002",
+    "MOON-EQ-0003",
+    "MOON-EQ-0004",
+    "MOON-EQ-0005",
+    "MARS-EQ-0036",
+    "MARS-EQ-0037",
+    "MARS-EQ-0038",
+    "MARS-EQ-0039",
+    "MARS-EQ-0040"
+  ]
+}
